@@ -1,0 +1,91 @@
+<div
+    class="theme-navigation-item-wrapper"
+    [class.theme-navigation-item-has-subtitle]="!!item.subtitle"
+    [ngClass]="item.classes?.wrapper"
+>
+    <div
+        class="theme-navigation-item"
+        aria-hidden="true"
+        [ngClass]="{ 'theme-navigation-item-disabled': item.disabled }"
+        [matTooltip]="item.tooltip || ''"
+        (click)="toggleCollapsable()"
+    >
+        <!-- Icon -->
+        @if (item.icon) {
+            <mat-icon
+                class="theme-navigation-item-icon"
+                [ngClass]="item.classes?.icon"
+                [svgIcon]="item.icon"
+            ></mat-icon>
+        }
+
+        <!-- Title & Subtitle -->
+        <div class="theme-navigation-item-title-wrapper">
+            <div class="theme-navigation-item-title">
+                <span [ngClass]="item.classes?.title">
+                    {{ item.title }}
+                </span>
+            </div>
+            @if (item.subtitle) {
+                <div class="theme-navigation-item-subtitle">
+                    <span [ngClass]="item.classes?.subtitle">
+                        {{ item.subtitle }}
+                    </span>
+                </div>
+            }
+        </div>
+
+        <!-- Badge -->
+        @if (item.badge) {
+            <div class="theme-navigation-item-badge">
+                <div class="theme-navigation-item-badge-content" [ngClass]="item.badge.classes">
+                    {{ item.badge.title }}
+                </div>
+            </div>
+        }
+
+        <!-- Arrow -->
+        <mat-icon
+            class="theme-navigation-item-arrow icon-size-4"
+            [svgIcon]="'heroicons_solid:chevron-right'"
+        ></mat-icon>
+    </div>
+</div>
+
+@if (!isCollapsed) {
+    <div class="theme-navigation-item-children" @expandCollapse>
+        @for (item of item.children; track trackByFn($index, item)) {
+            <!-- Skip the hidden items -->
+            @if ((item.hidden && !item.hidden(item)) || !item.hidden) {
+                <!-- Basic -->
+                @if (item.type === 'basic') {
+                    <theme-navigation-basic-item [item]="item" [name]="name"></theme-navigation-basic-item>
+                }
+
+                <!-- Collapsable -->
+                @if (item.type === 'collapsable') {
+                    <theme-navigation-collapsable-item
+                        [item]="item"
+                        [name]="name"
+                        [autoCollapse]="autoCollapse"
+                    ></theme-navigation-collapsable-item>
+                }
+
+                <!-- Divider -->
+                @if (item.type === 'divider') {
+                    <theme-navigation-divider-item [item]="item" [name]="name"></theme-navigation-divider-item>
+                }
+
+                <!-- Group -->
+                @if (item.type === 'group') {
+                    <theme-navigation-group-item [item]="item" [name]="name"></theme-navigation-group-item>
+                }
+
+                <!-- Spacer -->
+                @if (item.type === 'spacer') {
+                    <theme-navigation-spacer-item [item]="item" [name]="name"></theme-navigation-spacer-item>
+                }
+            }
+        }
+    </div>
+}

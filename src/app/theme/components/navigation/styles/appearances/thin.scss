@@ -1,0 +1,93 @@
+/* Variables */
+:root {
+    --theme-navigation-thin-width: 80px;
+}
+
+theme-navigation {
+    /* Thin appearance overrides */
+    &.theme-navigation-appearance-thin {
+        width: var(--theme-navigation-thin-width);
+        min-width: var(--theme-navigation-thin-width);
+        max-width: var(--theme-navigation-thin-width);
+
+        /* Left positioned */
+        &.theme-navigation-position-left {
+            &.theme-navigation-mode-side {
+                margin-left: calc(var(--theme-navigation-thin-width) * -1);
+            }
+
+            &.theme-navigation-opened {
+                margin-left: 0;
+            }
+        }
+
+        /* Right positioned */
+        &.theme-navigation-position-right {
+            &.theme-navigation-mode-side {
+                margin-right: calc(var(--theme-navigation-thin-width) * -1);
+            }
+
+            &.theme-navigation-opened {
+                margin-right: 0;
+            }
+
+            .theme-navigation-aside-wrapper {
+                left: auto;
+                right: var(--theme-navigation-thin-width);
+            }
+        }
+
+        /* Wrapper */
+        .theme-navigation-wrapper {
+            /* Content */
+            .theme-navigation-content {
+                > theme-navigation-aside-item,
+                > theme-navigation-basic-item {
+                    flex-direction: column;
+                    justify-content: center;
+                    height: 64px;
+                    min-height: 64px;
+                    max-height: 64px;
+                    padding: 0 16px;
+
+                    .theme-navigation-item-wrapper {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        .theme-navigation-item {
+                            justify-content: center;
+                            padding: 12px;
+                            border-radius: 4px;
+
+                            .theme-navigation-item-icon {
+                                margin: 0;
+                            }
+
+                            .theme-navigation-item-arrow,
+                            .theme-navigation-item-badge-content,
+                            .theme-navigation-item-title-wrapper {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+
+                > theme-navigation-collapsable-item {
+                    display: none;
+                }
+
+                > theme-navigation-group-item {
+                    > .theme-navigation-item-wrapper {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        /* Aside wrapper */
+        .theme-navigation-aside-wrapper {
+            left: var(--theme-navigation-thin-width);
+        }
+    }
+}
