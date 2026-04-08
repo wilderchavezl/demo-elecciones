@@ -35,6 +35,7 @@ export const compactNavigation: ThemeNavigationItem[] = [
     {
         id: 'candidatos-presidente',
         title: 'Candidatos a la Presidencia',
+        tooltip: 'Candidatos Presidenciales',
         type: 'basic',
         icon: 'heroicons_outline:user-group',
         link: '/candidatos-presidente',
@@ -42,6 +43,7 @@ export const compactNavigation: ThemeNavigationItem[] = [
     {
         id: 'candidatos-diputados',
         title: 'Candidatos a Diputados',
+        tooltip: 'Candidatos Diputados',
         type: 'basic',
         icon: 'heroicons_outline:user-group',
         link: '/candidatos-diputados',
@@ -49,6 +51,7 @@ export const compactNavigation: ThemeNavigationItem[] = [
     {
         id: 'candidatos-senadores',
         title: 'Candidatos a Senadores',
+        tooltip: 'Candidatos Senadores',
         type: 'basic',
         icon: 'heroicons_outline:user-group',
         link: '/candidatos-senadores',
@@ -56,6 +59,7 @@ export const compactNavigation: ThemeNavigationItem[] = [
     {
         id: 'candidatos-parlamento-andino',
         title: 'Candidatos a Parlamento Andino',
+        tooltip: 'Candidatos Parlamento Andino',
         type: 'basic',
         icon: 'heroicons_outline:user-group',
         link: '/candidatos-parlamento-andino',

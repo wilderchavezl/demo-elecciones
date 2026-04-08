@@ -3,7 +3,7 @@
 import { Component, OnDestroy, OnInit, ViewEncapsulation } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { Navigation } from '@core/navigation/navigation.model';
 import { NavigationService } from '@core/navigation/navigation.service';
 import { ThemeLoadingBarComponent } from '@theme/components/loading-bar/loading-bar.component';
@@ -16,7 +16,14 @@ import { Subject, takeUntil } from 'rxjs';
     selector: 'thin-layout',
     templateUrl: './thin.component.html',
     encapsulation: ViewEncapsulation.None,
-    imports: [ThemeLoadingBarComponent, ThemeNavigationComponent, MatButtonModule, MatIconModule, RouterOutlet],
+    imports: [
+        ThemeLoadingBarComponent,
+        ThemeNavigationComponent,
+        MatButtonModule,
+        MatIconModule,
+        RouterOutlet,
+        RouterLink,
+    ],
 })
 export class ThinLayoutComponent implements OnInit, OnDestroy {
     public isScreenSmall?: boolean;

@@ -1,4 +1,4 @@
-export interface PartidosPoliticos {
+export interface PartidoPolitico {
     id: number;
     nombre: string;
     logoUrl: string;

@@ -1,1 +1,41 @@
-<p>presidente works!</p>
+<!-- Main -->
+<div class="absolute inset-0 flex w-full min-w-0 flex-col overflow-hidden bg-gray-100 dark:bg-transparent">
+    <!-- Header -->
+    <div class="bg-card border-b p-6 dark:bg-transparent sm:py-12 md:px-8">
+        <!-- Title -->
+        <div>
+            <div class="text-4xl font-extrabold leading-none tracking-tight">Candidatos Presidenciales</div>
+        </div>
+    </div>
+
+    <!-- Items list -->
+    <div class="flex flex-col gap-4 overflow-y-auto p-6 md:p-8" cdkScrollable>
+        @for (item of candidatosPresidente; track $index) {
+            <div class="bg-card flex flex-row items-center gap-4 rounded-2xl p-4 shadow">
+                <div class="flex flex-row gap-4">
+                    <div class="h-32 w-32 overflow-hidden rounded">
+                        <img
+                            class="h-full w-full object-cover"
+                            [src]="item.partidoPolitico.logoUrl"
+                            [alt]="item.partidoPolitico.nombre"
+                        />
+                    </div>
+                    <div class="h-32 w-32 overflow-hidden rounded-full border">
+                        <img
+                            class="h-full w-full object-cover"
+                            [src]="item.fotoUrl"
+                            [alt]="item.nombres + ' ' + item.apellidos"
+                        />
+                    </div>
+                </div>
+
+                <div class="-mt-4 flex flex-col">
+                    <div class="text-2xl font-semibold leading-8 tracking-tight">
+                        {{ item.nombres }} {{ item.apellidos }}
+                    </div>
+                    <div class="text-secondary text-lg leading-5">{{ item.partidoPolitico.nombre }}</div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
