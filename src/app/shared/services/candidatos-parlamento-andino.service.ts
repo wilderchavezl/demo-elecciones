@@ -3,7 +3,7 @@ import { listaCandidatosParlamentoAndino } from '@mock-api/candidatos-parlamento
 import { listaPartidosPoliticos } from '@mock-api/partidos-politicos';
 import { CandidatoRequest } from '@shared/models/candidatos.model';
 import { Response } from '@shared/models/response.model';
-import { cloneDeep } from 'lodash';
+import { cloneDeep } from 'lodash-es';
 import { Observable, of } from 'rxjs';
 
 @Injectable({
