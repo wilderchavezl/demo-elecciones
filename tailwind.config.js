@@ -4,6 +4,16 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 const generatePalette = require(path.resolve(__dirname, 'src/app/theme/tailwind/utils/generate-palette'));
 
 /**
+ * Custom palettes
+ *
+ * Uses the generatePalette helper method to generate
+ * Tailwind-like color palettes automatically
+ */
+const customPalettes = {
+    brand: generatePalette('#2196F3'),
+};
+
+/**
  * Themes
  */
 const themes = {
@@ -24,6 +34,11 @@ const themes = {
         'on-warn': {
             500: colors.red['50'],
         },
+    },
+    // Rest of the themes will use the 'default' as the base
+    // theme and will extend it with their given configuration.
+    brand: {
+        primary: customPalettes.brand,
     },
 };
 
@@ -58,7 +73,7 @@ const config = {
             lg: '1280px',
             xl: '1440px',
         },
-        extends: {
+        extend: {
             animation: {
                 'spin-slow': 'spin 3s linear infinite',
             },

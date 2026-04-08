@@ -22,11 +22,15 @@ export const themeConfig: ThemeConfig = {
         lg: '1280px',
         xl: '1440px',
     },
-    theme: 'theme-default',
+    theme: 'theme-brand',
     themes: [
         {
             id: 'theme-default',
             name: 'Default',
+        },
+        {
+            id: 'theme-brand',
+            name: 'Brand',
         },
     ],
 };
