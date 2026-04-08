@@ -5,14 +5,14 @@ export const defaultNavigation: ThemeNavigationItem[] = [
         id: 'candidatos-presidente',
         title: 'Candidatos a la Presidencia',
         type: 'basic',
-        icon: 'heroicons_outline:user-group',
+        icon: 'heroicons_outline:user',
         link: '/candidatos-presidente',
     },
     {
         id: 'candidatos-diputados',
         title: 'Candidatos a Diputados',
         type: 'basic',
-        icon: 'heroicons_outline:user-group',
+        icon: 'heroicons_outline:users',
         link: '/candidatos-diputados',
     },
     {
@@ -33,7 +33,7 @@ export const defaultNavigation: ThemeNavigationItem[] = [
         id: 'candidatos-parlamento-andino',
         title: 'Candidatos a Parlamento Andino',
         type: 'basic',
-        icon: 'heroicons_outline:user-group',
+        icon: 'mat_outline:supervised_user_circle',
         link: '/candidatos-parlamento-andino',
     },
 ];
@@ -44,7 +44,7 @@ export const compactNavigation: ThemeNavigationItem[] = [
         title: 'Candidatos a la Presidencia',
         tooltip: 'Candidatos Presidenciales',
         type: 'basic',
-        icon: 'heroicons_outline:user-group',
+        icon: 'heroicons_outline:user',
         link: '/candidatos-presidente',
     },
     {
@@ -52,7 +52,7 @@ export const compactNavigation: ThemeNavigationItem[] = [
         title: 'Candidatos a Diputados',
         tooltip: 'Candidatos Diputados',
         type: 'basic',
-        icon: 'heroicons_outline:user-group',
+        icon: 'heroicons_outline:users',
         link: '/candidatos-diputados',
     },
     {
@@ -76,7 +76,7 @@ export const compactNavigation: ThemeNavigationItem[] = [
         title: 'Candidatos a Parlamento Andino',
         tooltip: 'Candidatos Parlamento Andino',
         type: 'basic',
-        icon: 'heroicons_outline:user-group',
+        icon: 'mat_outline:supervised_user_circle',
         link: '/candidatos-parlamento-andino',
     },
 ];
@@ -86,14 +86,14 @@ export const futuristicNavigation: ThemeNavigationItem[] = [
         id: 'candidatos-presidente',
         title: 'Candidatos a la Presidencia',
         type: 'basic',
-        icon: 'heroicons_outline:user-group',
+        icon: 'heroicons_outline:user',
         link: '/candidatos-presidente',
     },
     {
         id: 'candidatos-diputados',
         title: 'Candidatos a Diputados',
         type: 'basic',
-        icon: 'heroicons_outline:user-group',
+        icon: 'heroicons_outline:users',
         link: '/candidatos-diputados',
     },
     {
@@ -114,7 +114,7 @@ export const futuristicNavigation: ThemeNavigationItem[] = [
         id: 'candidatos-parlamento-andino',
         title: 'Candidatos a Parlamento Andino',
         type: 'basic',
-        icon: 'heroicons_outline:user-group',
+        icon: 'mat_outline:supervised_user_circle',
         link: '/candidatos-parlamento-andino',
     },
 ];
@@ -124,14 +124,14 @@ export const horizontalNavigation: ThemeNavigationItem[] = [
         id: 'candidatos-presidente',
         title: 'Candidatos a la Presidencia',
         type: 'basic',
-        icon: 'heroicons_outline:user-group',
+        icon: 'heroicons_outline:user',
         link: '/candidatos-presidente',
     },
     {
         id: 'candidatos-diputados',
         title: 'Candidatos a Diputados',
         type: 'basic',
-        icon: 'heroicons_outline:user-group',
+        icon: 'heroicons_outline:users',
         link: '/candidatos-diputados',
     },
     {
@@ -152,7 +152,7 @@ export const horizontalNavigation: ThemeNavigationItem[] = [
         id: 'candidatos-parlamento-andino',
         title: 'Candidatos a Parlamento Andino',
         type: 'basic',
-        icon: 'heroicons_outline:user-group',
+        icon: 'mat_outline:supervised_user_circle',
         link: '/candidatos-parlamento-andino',
     },
 ];
