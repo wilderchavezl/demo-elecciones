@@ -9,7 +9,7 @@ import { Observable, of } from 'rxjs';
     providedIn: 'root',
 })
 export class UbigeoService {
-    getUbigeo(): Observable<Response<Ubigeo[]>> {
+    getAll(): Observable<Response<Ubigeo[]>> {
         return of({
             success: true,
             data: cloneDeep(listaUbigeo),

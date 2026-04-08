@@ -9,7 +9,7 @@ import { Observable, of } from 'rxjs';
     providedIn: 'root',
 })
 export class PartidosPoliticosService {
-    getPartidosPoliticos(): Observable<Response<PartidoPolitico[]>> {
+    getAll(): Observable<Response<PartidoPolitico[]>> {
         return of({
             success: true,
             data: cloneDeep(listaPartidosPoliticos),
