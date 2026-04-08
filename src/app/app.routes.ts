@@ -25,8 +25,18 @@ export const routes: Routes = [
                 loadComponent: () => import('./pages/diputados/diputados.component').then((m) => m.DiputadosComponent),
             },
             {
-                path: 'candidatos-senadores',
-                loadComponent: () => import('./pages/senadores/senadores.component').then((m) => m.SenadoresComponent),
+                path: 'candidatos-senadores-distrito-unico',
+                loadComponent: () =>
+                    import('./pages/senadores-distrito-unico/senadores-distrito-unico.component').then(
+                        (m) => m.SenadoresDistritoUnicoComponent
+                    ),
+            },
+            {
+                path: 'candidatos-senadores-distrito-multiple',
+                loadComponent: () =>
+                    import('./pages/senadores-distrito-multiple/senadores-distrito-multiple.component').then(
+                        (m) => m.SenadoresDistritoMultipleComponent
+                    ),
             },
             {
                 path: 'candidatos-parlamento-andino',

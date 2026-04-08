@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ubigeo } from '@mock-api/ubigeo';
+import { listaUbigeo } from '@mock-api/ubigeo';
 import { Response } from '@shared/models/response.model';
 import { Ubigeo } from '@shared/models/ubigeo.model';
 import { cloneDeep } from 'lodash-es';
@@ -12,7 +12,7 @@ export class UbigeoService {
     getUbigeo(): Observable<Response<Ubigeo[]>> {
         return of({
             success: true,
-            data: cloneDeep(ubigeo),
+            data: cloneDeep(listaUbigeo),
         });
     }
 }

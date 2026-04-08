@@ -1,15 +1,15 @@
 import { CdkScrollable } from '@angular/cdk/scrolling';
 import { Component, inject, OnInit } from '@angular/core';
 import { CandidatoRequest } from '@shared/models/candidatos.model';
-import { CandidatosParlamentoAndinoService } from '@shared/services/candidatos-parlamento-andino.service';
+import { CandidatosSenadoresDistritoMultipleService } from '@shared/services/candidatos-senadores-distrito-multiple.service';
 
 @Component({
-    selector: 'app-parlamento-andino',
-    templateUrl: './parlamento-andino.component.html',
+    selector: 'app-senadores-distrito-multiple',
+    templateUrl: './senadores-distrito-multiple.component.html',
     imports: [CdkScrollable],
 })
-export class ParlamentoAndinoComponent implements OnInit {
-    private candidatosService = inject(CandidatosParlamentoAndinoService);
+export class SenadoresDistritoMultipleComponent implements OnInit {
+    private candidatosService = inject(CandidatosSenadoresDistritoMultipleService);
 
     public candidatos: CandidatoRequest[] = [];
 

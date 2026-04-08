@@ -18,7 +18,7 @@ export class PresidenteComponent implements OnInit {
     }
 
     private getCandidatosPresidente(): void {
-        this.candidatosPresidenteService.getCandidatosPresidente().subscribe({
+        this.candidatosPresidenteService.getAll().subscribe({
             next: (response) => {
                 this.candidatosPresidente = response.data;
             },

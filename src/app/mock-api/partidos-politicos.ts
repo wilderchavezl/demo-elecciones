@@ -181,4 +181,14 @@ export const listaPartidosPoliticos: PartidoPolitico[] = [
         nombre: 'RENOVACION POPULAR',
         logoUrl: 'https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/22',
     },
+    {
+        id: 2901,
+        nombre: 'FRENTE POPULAR AGRICOLA FIA DEL PERU',
+        logoUrl: 'https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2901',
+    },
+    {
+        id: 2968,
+        nombre: 'PARTIDO CIUDADANOS POR EL PERU',
+        logoUrl: 'https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2968',
+    },
 ];

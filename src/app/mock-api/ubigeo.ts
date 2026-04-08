@@ -1,6 +1,6 @@
 import { Ubigeo } from '@shared/models/ubigeo.model';
 
-export const ubigeo: Ubigeo[] = [
+export const listaUbigeo: Ubigeo[] = [
     { id: 1, ubigeo: '010000', departamento: 'Amazonas' },
     { id: 2, ubigeo: '020000', departamento: 'Ancash' },
     { id: 3, ubigeo: '030000', departamento: 'Apurimac' },
