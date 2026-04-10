@@ -14785,7 +14785,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GUTIERREZ LOAYZA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/3024a485-b610-4688-ba15-4baa175be86f.jpg',
         idPartido: 2921,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -22957,7 +22957,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CHAVEZ SIERRA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/a9259954-f3bf-4655-83ce-929003aabf99.jpg',
         idPartido: 14,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -22966,7 +22966,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GUTIERREZ GOMEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/96ed30c6-96c0-4d3b-98cf-65841271a924.jpg',
         idPartido: 14,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -22975,7 +22975,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CAYCHO DULANTO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/5d061770-a70b-4eff-b41d-d219a22720f5.jpg',
         idPartido: 14,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -22984,7 +22984,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'BRITO CASTRO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/e5dfeeff-6f86-411e-a516-034291c046d3.jpg',
         idPartido: 22,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -22993,7 +22993,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'NOLAZCO SOTO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/65de1fcf-69d0-4183-a88a-bdefba12f709.jpg',
         idPartido: 22,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23002,7 +23002,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'FORAQUITA SALAZAR',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/06ecf78d-9994-48e0-b9b7-806c7e13418c.jpg',
         idPartido: 22,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23011,7 +23011,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'COCA SOLORZANO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/85805209-2ed4-4814-ab08-14d8cd5d5ab8.jpg',
         idPartido: 1257,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23020,7 +23020,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ALDAVE SOTELO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f449913a-fd53-476c-ad94-745e28861d08.jpg',
         idPartido: 1257,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23029,7 +23029,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CHAMAYA ROJAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c68589fe-23c3-4e42-9d0b-30fdcda6ca4a.jpg',
         idPartido: 1257,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23038,7 +23038,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'SUSANIBAR SANDOVAL',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c7cdbf59-4dab-4a5e-b624-32323b7f2c6d.jpg',
         idPartido: 1264,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23047,7 +23047,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'BECERRA GARAY',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/97c518e0-b28f-4e1b-8387-bdcba66e74ed.jpg',
         idPartido: 1264,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23056,7 +23056,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'SANCHEZ MARTINEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/908dd78b-8d37-4f05-9d37-892e3da4b471.jpg',
         idPartido: 1264,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23065,7 +23065,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ANDRADE SALGUERO DE ALVAREZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/2d022f8e-70ca-4f69-bb66-18caf80c35d1.jpg',
         idPartido: 1366,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23074,7 +23074,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'SALAS RIVERA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/2595a793-7375-4430-91d4-9cbc362c884d.jpg',
         idPartido: 1366,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23083,7 +23083,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RETUERTO PALOMARES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/9983d62d-197d-4e86-8b3b-0b85f8564d83.jpg',
         idPartido: 1366,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23092,7 +23092,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GOICOCHEA PINEDO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/e5731f08-9ab4-4af6-90b2-c08082caa133.jpg',
         idPartido: 1366,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23101,7 +23101,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'VASQUEZ NEYRA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/35079eda-6112-4552-bf9a-831a7aed695a.jpg',
         idPartido: 2840,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23110,7 +23110,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'AVILA ACOSTA DE CALDERON',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/53f913c1-4b75-4e01-b24b-8ac835761792.jpg',
         idPartido: 2840,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23119,7 +23119,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CASTILLO COVEÑAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/7905ff5b-d11a-45b2-b154-0f622c8d3004.jpg',
         idPartido: 2840,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23128,7 +23128,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GUTIERREZ LUYO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/e5707972-09fc-4854-8861-819f4bf13c4f.jpg',
         idPartido: 2857,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23137,7 +23137,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GARCIA SALGADO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c5982ea0-0bf4-47c6-95a3-0dff814bd05e.jpg',
         idPartido: 2857,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23146,7 +23146,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'LUYO LUDEÑA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/967f3b03-597d-4976-bf82-b8ac04733093.jpg',
         idPartido: 2857,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23155,7 +23155,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CHERO MALDONADO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/833a05f6-19ee-4c7e-99cb-472dd4343b0d.jpg',
         idPartido: 2173,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23164,7 +23164,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MENDOZA ZANABRIA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/591582a1-06fd-4634-8981-293f23f94ae6.jpg',
         idPartido: 2173,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23173,7 +23173,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CHOQUE QUISPE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/80f5de31-8992-487a-93f4-616b85fd4305.jpg',
         idPartido: 2173,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23182,7 +23182,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'PRADO LINARES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f168939f-ffa0-411a-80a7-ad36da759a01.jpg',
         idPartido: 2218,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23191,7 +23191,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'LLATA PAUCAR',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/fedac617-1a7a-4456-b5c9-6efecd07a3fc.jpg',
         idPartido: 2218,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23200,7 +23200,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'PRUDENCIO ALOR',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/544f42ba-a7b3-4cba-99e7-d0598026e11e.jpg',
         idPartido: 2218,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23209,7 +23209,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'VILCA URIBE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/d04b92bf-3f30-4ef3-862f-1d8f635ee5b7.jpg',
         idPartido: 2218,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23218,7 +23218,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CARDOZO NUÑEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/e654c8b7-42dd-4cbf-b604-60610a3901b0.jpg',
         idPartido: 2935,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23227,7 +23227,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RUIZ SILVERA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/fa6598f9-9b98-4709-bb90-a8b688976a77.jpg',
         idPartido: 2935,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23236,7 +23236,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ORTIZ ARAYA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/2cda08a1-c665-4916-8512-8522d6f824c3.jpg',
         idPartido: 2933,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23245,7 +23245,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'BARRIENTOS VENTURA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/1baae11e-0b1a-4728-9f9a-7c0734da7551.jpg',
         idPartido: 2933,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23254,7 +23254,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MANRIQUE VERANO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/d307e42f-1770-4030-acd7-15a25726759e.jpg',
         idPartido: 2933,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23263,7 +23263,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'SALVO TORRES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/24351a2c-80bd-42ac-8e8b-ecc9af1f9a81.jpg',
         idPartido: 2930,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23272,7 +23272,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MARIN ZAPATA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/7215bceb-ce45-48a0-b562-c5030d3d364a.jpg',
         idPartido: 2930,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23281,7 +23281,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'BLAS COTRINA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/a0d65242-8fa3-4cbf-9a69-5a7865e6bfea.jpg',
         idPartido: 2932,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23290,7 +23290,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ZORRILLA MALVACEDA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/d3ceb52d-22af-467b-9624-29a6f70b421e.jpg',
         idPartido: 2932,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23299,7 +23299,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ZORRILLA ESPINOZA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/ad9e57ab-5f76-405a-8162-c52412a784aa.jpg',
         idPartido: 2932,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23308,7 +23308,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GARCIA PEÑA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/b5917b82-d93a-4f27-8131-768bad721d60.jpg',
         idPartido: 2932,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23317,7 +23317,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MEDINA SAAVEDRA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/5adbcd59-a1b2-4e7b-b86b-d6db49a21d92.jpg',
         idPartido: 2925,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23326,7 +23326,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'PALOMINO GARCIA MILLA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/455902b9-067c-46d6-9e71-ba577a26fddc.jpg',
         idPartido: 2925,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23335,7 +23335,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RODRIGUEZ CARPIO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f53a2a7c-aed8-41a8-895b-f390c11cfd82.jpg',
         idPartido: 2925,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23344,7 +23344,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MATAMOROS ESCOBAR',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/a985baeb-efd0-41f4-8f8d-dc2fe9dd1c51.jpg',
         idPartido: 2924,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23353,7 +23353,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ATAUJE MONTES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/75130308-d12e-4dba-ad12-a088191edac1.jpg',
         idPartido: 2924,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23362,7 +23362,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RAMIREZ JUAREZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/6c8ed198-8436-4eba-ae1b-2c8777e76af9.jpg',
         idPartido: 2931,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23371,7 +23371,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ARIAS FERNANDEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c71f5787-615c-4564-be9e-e224e3314d97.jpg',
         idPartido: 2931,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23380,7 +23380,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ANDRADE RODRIGUEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/665b110b-221d-4397-bfc5-7bee9c8fcdc0.jpg',
         idPartido: 2931,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23389,7 +23389,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GARCIA FUENTES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/7706c1a9-8115-49b9-9e6c-a29d149f1055.jpg',
         idPartido: 2931,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23398,7 +23398,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'BEJARANO ESCOBAR',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/a41857f1-0b17-43a9-89f8-afec3cd2f282.jpg',
         idPartido: 2731,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23407,7 +23407,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RAMIREZ ROJAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/fd5fde26-dbce-4194-a4de-2355327231b8.jpg',
         idPartido: 2731,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23416,7 +23416,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MOGOLLON ASTUDILLO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/5cd3cf5d-4d0f-4d1d-b9d7-66c6af766347.jpg',
         idPartido: 2731,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23425,7 +23425,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MARTINEZ PEREZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f6fe3cb2-3b01-4309-8663-22bb8c74d39d.jpg',
         idPartido: 2927,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23434,7 +23434,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CHINCHAY FEBRES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/e133142b-609f-4834-a67b-c96bae163663.jpg',
         idPartido: 2927,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23443,7 +23443,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'BERROCAL RAMOS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/8001345d-19d8-4c69-b0f7-79796db911de.jpg',
         idPartido: 2927,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23452,7 +23452,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'HURTADO ROMAN',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/77484ca8-fee7-4dab-b58c-4637563111de.jpg',
         idPartido: 2927,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23461,7 +23461,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CHOQUE VILLEGAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/78ac3e47-da56-4ebd-bf61-cebd9e801b6f.jpg',
         idPartido: 2901,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23470,7 +23470,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'DUEÑAS BARRIOS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/aafaf4d4-88e0-46c3-8ec8-3c3c029d61de.jpg',
         idPartido: 2901,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23479,7 +23479,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CHAVEZ GONZALES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/ecdb594f-d322-49b3-bfe4-3a4d067615ba.jpg',
         idPartido: 2901,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23488,7 +23488,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MARCELO OLAYA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/a1dabffe-db94-4842-9201-e8114a27b9ec.jpg',
         idPartido: 2898,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23497,7 +23497,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'VASQUEZ GOMEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/6dcb9a6f-a72e-44b7-995e-a9ce3d1ad4c5.jpg',
         idPartido: 2895,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23506,7 +23506,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'COLAN HIDALGO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/01c43f21-c57b-48be-b1a8-40fb5bc84b62.jpg',
         idPartido: 2895,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23515,7 +23515,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'HORNA MORENO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/0abfd041-ddf5-4dbe-b36f-4f3280267df2.jpg',
         idPartido: 2895,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23524,7 +23524,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GARAY RIVERA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/18999654-da7e-4e1f-a543-07d67218bf69.jpg',
         idPartido: 2895,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23533,7 +23533,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'VASQUEZ CARHUATANTA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/7333e520-5f4f-4ff4-b268-3c5fb955a872.jpg',
         idPartido: 2895,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -23542,7 +23542,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ATAO ACEVEDO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/db514058-69ac-461e-82cf-e791cfe91589.jpg',
         idPartido: 2869,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23551,7 +23551,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CATAÑO OROPEZA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/42311615-6690-476b-8251-4977aa83ff6a.jpg',
         idPartido: 2869,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23560,7 +23560,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'TAPIA MENDOZA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/d5e51235-cfdf-4248-9ebc-848aea9ca178.jpg',
         idPartido: 2869,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23569,7 +23569,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ROJAS QUISPE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/d555a9fd-1c28-4463-bc0d-3a634a7c18c9.jpg',
         idPartido: 2985,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23578,7 +23578,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'SANCHEZ CAMA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/020a75f7-bcc2-4a93-a0a1-d23fca1c4344.jpg',
         idPartido: 2985,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23587,7 +23587,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CASTAÑEDA SANCHEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/b48dc575-251d-491f-ae9d-2f5d73fe7ccc.jpg',
         idPartido: 2985,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23596,7 +23596,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'VELASQUEZ LUCANA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/7b2ab1c7-eb4e-4cd1-a7b3-95482e01f84d.jpg',
         idPartido: 2998,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23605,7 +23605,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MEGO LUJAN',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/4c6560f7-0d17-451a-8008-c2d7a3b7a366.jpg',
         idPartido: 2998,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23614,7 +23614,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MORI CERNA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/a41a861b-1849-4880-bd63-a0e03d8d48f9.jpg',
         idPartido: 2998,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23623,7 +23623,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'TORRES ABANTO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/944f24f8-bb99-4b7c-a546-002ecfdf04ef.jpg',
         idPartido: 2980,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23632,7 +23632,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'URBANO GALIANO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c0d4a323-6b97-4388-903a-6613de5b7372.jpg',
         idPartido: 2980,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23641,7 +23641,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ZEVALLOS CHAVEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/4f2e5c65-c3e8-4659-8c40-d41d4c0bd381.jpg',
         idPartido: 2980,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23650,7 +23650,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'TEJEDA CIERTO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c6cafebd-6944-4a1c-aa8f-86a3fb688898.jpg',
         idPartido: 2941,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23659,7 +23659,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ESPINOZA CAQUIPOMA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/67968ce4-5329-425d-97e9-3390925c1063.jpg',
         idPartido: 2941,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23668,7 +23668,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'EUSEBIO PADILLA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/8d44f945-0c51-4f46-a3e4-44206775973e.jpg',
         idPartido: 2941,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23677,7 +23677,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'APOLINAR MELENDEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/01537741-0030-4057-9f2d-e328a1ad954d.jpg',
         idPartido: 2941,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23686,7 +23686,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'SANTANA VERA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/7eab2b4e-0515-40f0-8c20-e163c737a474.jpg',
         idPartido: 2961,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23695,7 +23695,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CARRIZALES JUNCO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/73633947-4700-4e31-8440-b95764e35bcb.jpg',
         idPartido: 2961,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23704,7 +23704,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'PAUCAR MAGUIÑA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/a9d26338-f595-4350-8ae5-373b020d1309.jpg',
         idPartido: 2961,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23713,7 +23713,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ARELLANO MATA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/bfb0af1f-f2c6-45c0-86a5-089f8cc5e3af.jpg',
         idPartido: 2961,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23722,7 +23722,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MEDINA BAILON',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/19db6f2d-2251-4910-979d-12edba543613.jpg',
         idPartido: 2986,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23731,7 +23731,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MINAYA RODRIGUEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/e07bdee5-11b9-4caa-b170-2f09f20729be.jpg',
         idPartido: 2986,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23740,7 +23740,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RODRIGUEZ FLORES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/1b8e9690-863d-4429-b3ff-dd570514c710.jpg',
         idPartido: 2986,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23749,7 +23749,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'HUAMAN VARRERA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/7480d56a-f23e-48eb-b60a-5b6f1cd96b6e.jpg',
         idPartido: 2986,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23758,7 +23758,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RUIZ ULLOA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/fd688695-53df-4eb5-a259-c7f62c662afb.jpg',
         idPartido: 2956,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23767,7 +23767,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RAMOS MURGA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/0fd95e3c-3261-4fa4-afad-4b5211c9a223.jpg',
         idPartido: 2956,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23776,7 +23776,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'PAMPA ESTRADA VDA DE PLACIDO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/4985536e-dc66-4314-91ae-997b177a64b8.jpg',
         idPartido: 2956,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23785,7 +23785,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'BERRIOS FIGUEROA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c8a50a52-c2c0-46e7-89ae-acef9435fe3c.jpg',
         idPartido: 2995,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23794,7 +23794,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MARCELO CANTU',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c0ca3f45-294d-418d-a49a-da900c1063e7.jpg',
         idPartido: 2995,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23803,7 +23803,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'HUAMAN SILVA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/8dcdddc0-6e7c-46b9-8c7a-bc4caeaf21a3.jpg',
         idPartido: 2995,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23812,7 +23812,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RAMIREZ RAMOS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/57939f23-5c5f-48a4-b5c0-596e83b9aa77.jpg',
         idPartido: 2995,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23821,7 +23821,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'OBREGON OBREGON',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f412f963-429d-4b12-bf97-107efffba3b9.jpg',
         idPartido: 2967,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23830,7 +23830,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'HUYHUA CONTRERAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/51548ca6-38b9-4e4d-84a7-b1b1498cd595.jpg',
         idPartido: 2967,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23839,7 +23839,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RUIZ RAMOS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c2f344c7-a519-4821-8e9b-a16e69e0fd84.jpg',
         idPartido: 2921,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23848,7 +23848,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'YATACO ORMEÑO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/2241e9eb-1c8a-477d-a101-1cb67b7bb3a7.jpg',
         idPartido: 2921,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23857,7 +23857,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CASTILLEJO PARI',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/2a76d632-5fb3-426c-9177-1c070c0697d5.jpg',
         idPartido: 2921,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23866,7 +23866,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'TURPO MORALES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f0630d8a-0cd5-41f5-abc8-183bdf298a5c.jpg',
         idPartido: 2921,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23875,7 +23875,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'OBREGON TAMARA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/3a95a620-1c8f-4839-80f1-7fbe4dab0428.jpg',
         idPartido: 3025,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23884,7 +23884,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'QUINTANILLA ALARCON',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/98d12745-18bf-4208-a616-c0570599fb86.jpg',
         idPartido: 3025,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23893,7 +23893,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ARANIBAR DUEÑAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/b0afbfbf-255a-434b-96b8-39d95210d5c9.jpg',
         idPartido: 3025,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23902,7 +23902,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MARIÑO MELGAREJO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/ede678eb-fced-40c2-9245-3a5b1eeebce2.jpg',
         idPartido: 3025,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23911,7 +23911,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'AGUILAR ARRIETA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/18b82e2b-1b89-4126-b47a-85c62a47841e.jpg',
         idPartido: 3024,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -23920,7 +23920,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'DE LA O CARRION',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/e6764dd5-2c46-44d4-bca5-82002dc7ccd9.jpg',
         idPartido: 3024,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23929,7 +23929,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ZEGARRA ALBARRACIN',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/8f52a780-96a7-41de-91c0-6e7957f49962.jpg',
         idPartido: 3024,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23938,7 +23938,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CONTRERAS ALARCON',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f096e222-3e8f-4ba1-bbd2-c2005c561c4e.jpg',
         idPartido: 3024,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23947,7 +23947,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'DAVILA CABANILLAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/51bb9eec-cfa4-4356-95d5-987434f7ec4c.jpg',
         idPartido: 3023,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -23956,7 +23956,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ORTIZ MORE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/745c0ad7-547b-426a-887d-253534fe1c08.jpg',
         idPartido: 3023,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -23965,7 +23965,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'LANDEO HUATUCO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f9997bcb-e0e2-45d3-87b7-e5fe8203237e.jpg',
         idPartido: 3023,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -23974,7 +23974,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CONDOR ROMO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/e2e78f8a-b42a-45ea-a1bc-2208a7214b8e.jpg',
         idPartido: 3023,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -31408,7 +31408,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'HUAMAN MENDOZA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/1cc4c35b-81a0-4189-a5c6-2b21745b75fe.jpg',
         idPartido: 14,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -31417,7 +31417,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MENDOZA PODESTA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/3e2097ea-49f6-455b-8b71-98211ab1761b.jpg',
         idPartido: 14,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -31426,7 +31426,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'IRENO AYALA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c0f8ebe9-dc1e-4bfe-949b-7883403016f9.jpg',
         idPartido: 22,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -31435,7 +31435,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RAMOS CCASA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/540f12a3-8f52-4d45-bb66-af05ed2bc449.jpg',
         idPartido: 22,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -31444,7 +31444,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ZEBALLOS APONTE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/cce9abf6-a68e-4e2c-b169-6eab12571da6.jpg',
         idPartido: 22,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -31453,7 +31453,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GUERRA WATSON',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/981a59dc-4dae-4d93-aec7-eb2d1d7255ea.jpg',
         idPartido: 22,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -31462,7 +31462,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'PAREDES MARTINO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/9c7b3fba-bbe4-4829-8e0a-3ef64c15915c.jpg',
         idPartido: 1257,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -31471,7 +31471,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ARELLANO DOMINGUEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f3578d4b-9f2e-4700-8e11-4a5c388babb8.jpg',
         idPartido: 1257,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -31480,7 +31480,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'BALDEON OCHOA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/b2d24672-f5a1-47df-b942-9c598e54673b.jpg',
         idPartido: 1257,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -31489,7 +31489,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'SALAZAR VARGAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f13522cf-947d-4621-91c4-5c3509ca564a.jpg',
         idPartido: 1257,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -31498,7 +31498,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'FELIX ROJAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/92a254a9-e0be-4e4a-8885-5cc1669d9ee0.jpg',
         idPartido: 2840,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -31507,7 +31507,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GUZMAN HERRERA DE RITMAN',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/af96c6f1-8d1a-4878-b191-900ecc447973.jpg',
         idPartido: 2840,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -31516,7 +31516,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RICALDES LOAYZA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/0fbbe62c-6c10-4d33-9eaf-9091a962e3ee.jpg',
         idPartido: 2840,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -31525,7 +31525,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RUIZ GONZALES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/5a008d52-a458-4e96-b285-e39d0f0144eb.jpg',
         idPartido: 2857,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -31534,7 +31534,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CERPA FERNANDEZ DE VARGAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/28ef0de1-c8d7-4994-b8e3-be83453c1ee1.jpg',
         idPartido: 2173,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -31543,7 +31543,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MAMANI BARRIGA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/2efde5e3-c516-4f22-9705-f575b7a150d5.jpg',
         idPartido: 2173,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -31552,7 +31552,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'PARRA MALDONADO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/739e5ef8-9278-4f88-be3a-af0e121fbcb9.jpg',
         idPartido: 2173,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -31561,7 +31561,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'VIGIL ROMERO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/acc21da9-cf57-4601-988b-ebf894ed2947.jpg',
         idPartido: 2218,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -31570,7 +31570,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'LIMAS ALIAGA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/ffd1fc81-f0d1-4b48-9f48-15d4b9dfecdd.jpg',
         idPartido: 2218,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -31579,7 +31579,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MELLADO BERNUY DE ILLES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/5a859662-6c79-4d2a-9786-82f8dfbf0e79.jpg',
         idPartido: 2218,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -31588,7 +31588,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ESPINOZA HERNANDEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/ef5e9563-c4d3-4b24-a97d-e9408485784b.jpg',
         idPartido: 2939,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -31597,7 +31597,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'AGUINAGA MASLUCAN',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/7d0f82c9-131b-4ad2-b901-7b86c172ca1f.jpg',
         idPartido: 2939,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -31606,7 +31606,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ZEA MENESES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/096b9e24-d1f4-4f04-9504-4c08a3add85b.jpg',
         idPartido: 2939,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -31615,7 +31615,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'BEZADA ZAMBRANO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/012c2dba-6c33-4dc2-a0a9-5eb9217f4fab.jpg',
         idPartido: 2935,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -31624,7 +31624,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GREENFIELD ESPA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/17eac6aa-c9bb-4819-8804-a8d8755e7115.jpg',
         idPartido: 2935,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -31633,7 +31633,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'HARO CORDOVA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/9a8ae1bd-1fe3-4274-8b49-eb4f105f2b7c.jpg',
         idPartido: 2933,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -31642,7 +31642,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MALVACEDA LOBATON',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/78b3b27f-fc66-4699-94f6-a461b198cd77.jpg',
         idPartido: 2933,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -31651,7 +31651,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'COTRINA ROWE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/45c55123-c3f9-4645-ab81-94d5f50c79b6.jpg',
         idPartido: 2933,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -31660,7 +31660,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'HARO ESPINOZA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/3597a8f9-7464-43d6-979d-fae947e23495.jpg',
         idPartido: 2933,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -31669,7 +31669,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'SOLIS CANALES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/e402e33e-ad01-4ff1-a65e-ba07d18fe7e8.jpg',
         idPartido: 2930,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -31678,7 +31678,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MORALES MATOS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/5055081e-c388-4e15-ba18-933031d0582d.jpg',
         idPartido: 2930,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -31687,7 +31687,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RINCON CAMPOS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/af2e9b09-5d7c-4ec6-9c0f-808d221156b6.jpg',
         idPartido: 2930,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -31696,7 +31696,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'HERRERA GONZALES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/00bd93e9-e430-413b-993e-f29a38245d6d.jpg',
         idPartido: 2930,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -31705,7 +31705,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RETIZ HIDALGO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/9f8f4e3b-2af9-4c21-8b77-a23e6001dcf7.jpg',
         idPartido: 2925,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -31714,7 +31714,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GARCIA ABAD',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c856b29b-b844-4d44-b429-cf3f9f9d384c.jpg',
         idPartido: 2925,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -31723,7 +31723,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ARMUTO PARI',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f1d67fd4-ad61-45a8-bfed-550a8b3cc579.jpg',
         idPartido: 2925,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -31732,7 +31732,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'REATEGUI RAMIREZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/88d3adc0-fb62-44f9-b808-47222caa0582.jpg',
         idPartido: 2931,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -31741,7 +31741,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RIVAS MORENO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f2de578e-0be4-4b35-97cf-b5aaea5ec9e6.jpg',
         idPartido: 2931,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -31750,7 +31750,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'PALOMINO ISASI',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/6a1ca77c-0551-4467-beed-2d20c5052f98.jpg',
         idPartido: 2931,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -31759,7 +31759,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'DERTEANO BIDEGARAY',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/8f085ccf-ce1a-47bf-9fff-1f2c3e0460b4.jpg',
         idPartido: 2931,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -31768,7 +31768,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'PACHECO VERA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/3ce23c46-0b31-4253-a892-67fd5ae6fbf9.jpg',
         idPartido: 2731,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -31777,7 +31777,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MAGALLAN SULLCAPUMA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/93571008-eaa4-4851-9cd5-f7616e5a1f5e.jpg',
         idPartido: 2731,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -31786,7 +31786,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GUPIOC RIOS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/9302786a-26f1-46c5-84b0-5851b2b313fa.jpg',
         idPartido: 2731,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -31795,7 +31795,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MARTINEZ MARTINEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/b657deca-f697-4234-9675-6313a4056ee6.jpg',
         idPartido: 2927,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -31804,7 +31804,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'PORTOCARRERO MENDOZA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/183c9541-2e59-498e-8b2a-5f7a239f97f6.jpg',
         idPartido: 2927,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -31813,7 +31813,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GONZALES LOPEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c2c66991-db85-42c6-92e8-ad4843834c90.jpg',
         idPartido: 2927,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -31822,7 +31822,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'HUAYNALAYA PUMACAYO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c9db0cbc-6687-4432-9a89-9e9ece665d9f.jpg',
         idPartido: 2901,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -31831,7 +31831,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'LLUNCOR LOZANO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/00d1ae71-f0a6-4bec-bbaf-f51b0725545e.jpg',
         idPartido: 2901,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -31840,7 +31840,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'IGNACIO INFANTES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/4cedec0d-6d52-4b64-a903-867eaafc7359.jpg',
         idPartido: 2901,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -31849,7 +31849,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'POLO VARGAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/162f029f-0819-4d5f-80ea-b6fca1a5102d.jpg',
         idPartido: 2867,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -31858,7 +31858,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'VEGA CARRASCO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/be19625e-9a49-40f2-8a96-a1beb9782cb3.jpg',
         idPartido: 2867,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -31867,7 +31867,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'LOVON DIAZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/d2ac03c4-d1f6-4634-b74b-7d1254011a5d.jpg',
         idPartido: 2898,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -31876,7 +31876,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ROMERO AREVALO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/852c9a6a-bec5-493a-9d54-3a5e8196bea0.jpg',
         idPartido: 2898,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -31885,7 +31885,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ARISMENDIZ RODRIGUEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/d8b58d3d-b8c1-454b-b091-91afe47a9e53.jpg',
         idPartido: 2898,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -31894,7 +31894,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RAMIREZ VIDAL',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/28329aae-9e4b-4dbe-9648-df4f3783e86a.jpg',
         idPartido: 2898,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -31903,7 +31903,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ZORRILLA BLAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/8c7f9ff2-9e7f-448e-a018-5cd9e29257b2.jpg',
         idPartido: 2895,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -31912,7 +31912,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GUERRERO CRISTOBAL',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/1e3a2ff6-04e2-4115-a4ba-d1036cf93992.jpg',
         idPartido: 2895,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -31921,7 +31921,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'VILLANUEVA NATIVIDAD',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/4805e1ee-418b-4c21-bdd2-0f3a0eddf3f4.jpg',
         idPartido: 2895,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -31930,7 +31930,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'BEINGOLEA ORTEGA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f0a78907-e4aa-44e4-8355-2842beea90b9.jpg',
         idPartido: 2869,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -31939,7 +31939,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ALFARO GUEVARA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/42dfa88d-9c37-4fa1-b4ff-47d73c368135.jpg',
         idPartido: 2985,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -31948,7 +31948,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CAYO SANTILLAN',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/3b9b0dcf-afa1-49ad-8828-b9fbc0823ef5.jpg',
         idPartido: 2985,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -31957,7 +31957,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'FIESTAS ZUÑIGA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/5403efb0-1350-44e3-929c-4b4cc3426efc.jpg',
         idPartido: 2985,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -31966,7 +31966,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CARDENAS ZAVALETA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/3ee0c7c0-ca12-46ab-82ef-1178962f52b5.jpg',
         idPartido: 2998,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -31975,7 +31975,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'HEROS SANCHEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/9ea44f24-d049-43d2-9c16-32c061839acd.jpg',
         idPartido: 2998,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -31984,7 +31984,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CENTURION CAMPOS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/7180a994-18dc-4ee8-8ab7-715728f92114.jpg',
         idPartido: 2998,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -31993,7 +31993,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'VALLEJO AIQUIPA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f4b3e383-e74e-4601-b891-1e4a92490676.jpg',
         idPartido: 2980,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -32002,7 +32002,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ZUÑIGA RAMOS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/06885931-37a6-4215-b30d-facdc32ff8e8.jpg',
         idPartido: 2941,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -32011,7 +32011,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'FERNANDEZ ANAYA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/e734ffb4-7470-4cad-b033-bca0356bb28f.jpg',
         idPartido: 2961,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -32020,7 +32020,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RAMIREZ DAVILA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/2f46b94c-9314-4311-a3e8-00673dfd84b5.jpg',
         idPartido: 2961,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -32029,7 +32029,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'TORRES MITACC',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/9194164c-5679-4855-8c60-0f4d5b8104a9.jpg',
         idPartido: 2995,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -32038,7 +32038,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'SANCHEZ BARRANTES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/0018a184-f5d4-4f90-99a5-7f079ad5d437.jpg',
         idPartido: 2995,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -32047,7 +32047,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CARDENAS QUISPE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c1d3711e-b018-4a7a-a635-c5243f2797c0.jpg',
         idPartido: 2995,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -32056,7 +32056,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ESPINOZA FRANCISCO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/4b9d9c25-3712-4a2d-a517-0db562e6dd0b.jpg',
         idPartido: 2995,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -32065,7 +32065,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MORALES SANTANA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/32416e2c-bfa0-482d-a6ab-8a2a765a9991.jpg',
         idPartido: 2921,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -32074,7 +32074,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ANTICONA SALAZAR',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/ee42240a-0dff-4f29-bc06-6d47f89cc015.jpg',
         idPartido: 2921,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -32083,7 +32083,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GUTIERREZ ALVA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/4cf4855c-4799-4347-a8fc-efcceae95a67.jpg',
         idPartido: 3025,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -32092,7 +32092,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CASTILLO MIRANDA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/8189bc87-fa9c-419f-82d2-9f576f98526a.jpg',
         idPartido: 3025,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -32101,7 +32101,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MAZZINI URIBE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/a9bf4498-dde7-44a2-b09d-92dbbcd179ef.jpg',
         idPartido: 3025,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -32110,7 +32110,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'TICONA ZEGARRA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/002edad5-799a-4ef8-ac8b-da734f6d1686.jpg',
         idPartido: 3025,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -32119,7 +32119,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GREEN BARRUETA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/3f3e88a4-5339-4806-b4bf-af3f72031614.jpg',
         idPartido: 3024,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -32128,7 +32128,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ZARATE PARCO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/258f0a70-049b-413d-8e20-ddf95fbd0162.jpg',
         idPartido: 3024,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -32137,7 +32137,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GOMEZ HIJAR',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/e9fdb3d7-6def-4881-b8aa-891bb9ed184e.jpg',
         idPartido: 3024,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -32146,7 +32146,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RODRIGUEZ MORON',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/de9a00ff-ddf8-4981-b92c-971bff8fd202.jpg',
         idPartido: 3023,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -37051,7 +37051,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MEJIA SANTILLAN',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c03ce615-4b63-4c3f-b1d0-c4224fce621b.jpg',
         idPartido: 14,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -37222,7 +37222,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'LEON RICARDI',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/bb9f44eb-4ac8-4961-856a-c5411d641dbb.jpg',
         idPartido: 14,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -37231,7 +37231,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'VASQUEZ GUZMAN DE CABRERA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/4c4570ae-7bd2-4e95-b5ed-f6cd8f6e1bcc.jpg',
         idPartido: 14,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -37573,7 +37573,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MELENDEZ VICENTE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/689d512f-a307-49af-a715-dd7f8c524ee7.jpg',
         idPartido: 22,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -37609,7 +37609,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CALDERON SANCHEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/8875be59-baf0-4669-9969-77a7555112f2.jpg',
         idPartido: 1257,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -38086,7 +38086,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'SOTA MALDONADO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/0753a3d5-1b33-42d2-b43c-cad5b5a86cf9.jpg',
         idPartido: 1264,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -38446,7 +38446,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'AGUILAR CONDOR',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/675eaef0-242e-474a-8f09-c76d3ea82ca0.jpg',
         idPartido: 1366,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -38455,7 +38455,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ALFARO QUIPUSCOA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f6de9edc-26aa-4bd5-99e5-1a0d204e9005.jpg',
         idPartido: 1366,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -38464,7 +38464,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MENDOZA BERNEDO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/8543846b-eaab-4b44-bda0-849122e6f396.jpg',
         idPartido: 1366,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -38473,7 +38473,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'LUNA ENCISO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/593f5035-4e2a-4830-a470-f48c92e17393.jpg',
         idPartido: 1366,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -38482,7 +38482,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'LANDERS BEDOYA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/',
         idPartido: 2840,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -38671,7 +38671,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GUZMAN HUAPAYA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/389253f8-3aae-46b5-8586-9d5f4f6d19e6.jpg',
         idPartido: 2840,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -38833,7 +38833,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'UGARTE OBREGON',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/156ec797-6f4e-49ca-abf2-e33354b1aea7.jpg',
         idPartido: 2857,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -38860,7 +38860,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CARRETERO TORRES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/cb82f17a-75bb-4012-9e48-708a6a1c1bfc.jpg',
         idPartido: 2857,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -38869,7 +38869,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GALLO RENGIFO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/a4f22efd-a5cc-4dd7-83d8-9818274cd24f.jpg',
         idPartido: 2857,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -38878,7 +38878,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'BELLEZA CABALLINA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/238c3941-b466-4990-b908-da989a3b7fb9.jpg',
         idPartido: 2857,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -39031,7 +39031,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MARURE ALMANZA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/9fb944b4-78b1-42d0-b36e-750fee7baec8.jpg',
         idPartido: 2173,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -39265,7 +39265,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ALMERI VERAMENDI',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/add47e1c-e2c4-4899-8483-c30b9f990671.jpg',
         idPartido: 2173,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -39364,7 +39364,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'HOLGUIN DURAND',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/11118e5d-ae8a-4741-a8f6-72889f101317.jpg',
         idPartido: 2218,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -39670,7 +39670,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GIRALDO GONZALES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c0f94fa1-ac05-436c-8aa4-7127b38ad295.jpg',
         idPartido: 2939,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -39688,7 +39688,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'FERNANDEZ SARMIENTO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/415aeed3-cf43-49f7-8ee4-ee28f4ee65c0.jpg',
         idPartido: 2935,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -39697,7 +39697,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'BARRERA VIRHUEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/ebc57fa9-ed2c-458f-95af-397a6ad9189e.jpg',
         idPartido: 2935,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -39850,7 +39850,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'SALCEDO LESCANO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f9054646-5aac-4f8b-9cb3-939a703ccdc1.jpg',
         idPartido: 2935,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -39859,7 +39859,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'FREYRE PASAPERA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f2eabb5c-a91e-4879-ba8c-617803606916.jpg',
         idPartido: 2935,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -40093,7 +40093,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GARCIA PORTOCARRERO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/15d55058-4417-4614-87fa-2f5050c3add5.jpg',
         idPartido: 2933,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -40381,7 +40381,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MANRIQUE LA ROSA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/82e23f8b-3e7f-468b-9f5e-6e19e91609e6.jpg',
         idPartido: 2930,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -40390,7 +40390,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MAURICIO ALOR',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/99190de6-aa17-4349-850f-be97951bc0c4.jpg',
         idPartido: 2930,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -40471,7 +40471,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'TANAKA COSTA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/5a65dc66-1c05-4545-8669-b3d6e702cf29.jpg',
         idPartido: 2932,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -40480,7 +40480,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'PINEDA CHINCHAY',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/e1b7fe67-dcfb-4f8d-b536-e2331878af72.jpg',
         idPartido: 2932,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -40489,7 +40489,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'BRINGAS GONZALES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/3654f4ce-0be0-4c33-baf2-0103c3cf1764.jpg',
         idPartido: 2932,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -40498,7 +40498,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'CELI VEGAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/6429435f-b218-46b7-87e7-e5676f6b4b15.jpg',
         idPartido: 2932,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -40984,7 +40984,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'YACTAYO LEVANO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/aaa4c029-ce3c-4d99-9596-e3e435b026c6.jpg',
         idPartido: 2925,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -41038,7 +41038,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'VILLANUEVA TIZON',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/7d7dfc38-4692-4a8e-9f1c-13852fb95839.jpg',
         idPartido: 2925,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -41155,7 +41155,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GARCIA ANTUNEZ DE MAYOLO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/4991bf28-43a5-4d07-a5e2-d529d4d2e881.jpg',
         idPartido: 2924,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -41164,7 +41164,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'HUAMAN CULLANCO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/6c1ba9e4-5ff4-46a1-a5fd-5f1ff3cabd8c.jpg',
         idPartido: 2924,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -41515,7 +41515,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'NEYRA VILLANUEVA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/ffd01777-0ae2-4321-9795-f3c838eec87f.jpg',
         idPartido: 2731,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -41704,7 +41704,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ABURTO MATUMAY',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/27008b01-8da2-4bce-bb3d-be59866a72a5.jpg',
         idPartido: 2731,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -42082,7 +42082,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ARCE MORALES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/d70af3ed-7b1f-4ff1-94c0-09bd3e637001.jpg',
         idPartido: 2927,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -42235,7 +42235,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'AIQUIPA TOMAILLA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/09732084-611d-472a-8202-3a488a893b14.jpg',
         idPartido: 2901,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -42262,7 +42262,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'OSORIO RAMOS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/93e6f07f-6ac4-4e60-b661-6a15fdd83b7a.jpg',
         idPartido: 2901,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -42784,7 +42784,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'TELLO VARGAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/75d54126-8d5b-427e-83bc-6f7652ddde30.jpg',
         idPartido: 2867,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -42793,7 +42793,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'PICHILINGUE OSORIO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/afe7db53-33f0-497f-ba9c-1af22e22bc8f.jpg',
         idPartido: 2867,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -42802,7 +42802,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'TIBURCIO PEREZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/3f384b49-c39d-43a5-b33f-afb151152e36.jpg',
         idPartido: 2867,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -42811,7 +42811,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GUTIERREZ RAMIREZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/569302dd-fbe9-4e3f-ac5d-6ca9032ebd58.jpg',
         idPartido: 2867,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -43513,7 +43513,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'DAMIANO LEGUIA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/531f2d6b-f58e-48df-a4b6-a5b4b2b9a8c8.jpg',
         idPartido: 2867,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -43522,7 +43522,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'COSTILLA PORTOCARRERO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/a8c5783b-fc20-40a6-833d-9163fba0c653.jpg',
         idPartido: 2867,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -43720,7 +43720,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ROSAS JAVIER',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/409824b1-4dfa-472a-83c9-d117067dfc13.jpg',
         idPartido: 2898,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -43729,7 +43729,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'PALACIOS RODRIGUEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/2f7ead81-768f-40b0-b6af-848935719b30.jpg',
         idPartido: 2898,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -43738,7 +43738,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MIRANDA HILARIO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/a30dceff-4c8d-487f-a49c-051d83c3b630.jpg',
         idPartido: 2898,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -43972,7 +43972,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RIOS ROJAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/00877faf-75c6-47c5-91c6-b7f0e20d9feb.jpg',
         idPartido: 2869,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -44116,7 +44116,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'DODERO HUARCAYA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/54a9ab71-072d-4b3f-b3ce-c9316831ec1f.jpg',
         idPartido: 2869,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -44125,7 +44125,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'LAZO CRUZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/fbb29bac-984c-4868-a8f0-6056d5e45367.jpg',
         idPartido: 2869,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -44134,7 +44134,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ALVARADO VERASTEGUI',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c6cb99ef-5a51-40a4-bf2d-bf44727898f3.jpg',
         idPartido: 2869,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -44413,7 +44413,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'TELLO PEREZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/df656d36-e9f1-4919-b2d5-51d55362787e.jpg',
         idPartido: 2985,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -44458,7 +44458,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MORI PERDOMO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/86799304-a7d2-4f0f-bb56-9e338a5f73a4.jpg',
         idPartido: 2985,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -44521,7 +44521,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'VILLANERA CIVICO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/aada0e0a-770f-418f-bc7a-027882b205bf.jpg',
         idPartido: 2998,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -44755,7 +44755,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'VASQUEZ RODRIGUEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/ea42a35e-829a-4ef5-945b-70fb782596a7.jpg',
         idPartido: 2998,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -44863,7 +44863,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'SANCHEZ ESTUPIÑAN',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/b5328228-b627-4dd9-8329-ef1f8590c654.jpg',
         idPartido: 2980,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -44899,7 +44899,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'TAVARA MAZA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f31d7a48-7992-4265-aff4-bc8722d32b00.jpg',
         idPartido: 2980,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -44908,7 +44908,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'COSTA GONZALEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/43eed41b-77fe-438e-b551-f298b0ea4334.jpg',
         idPartido: 2980,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -44917,7 +44917,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ANGELES PONTE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/9acb9794-c8bf-4696-8bdd-255de8fe7b6f.jpg',
         idPartido: 2980,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -45430,7 +45430,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GONZALES OROZCO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/16c15256-6e13-42d6-8609-2c4855fa161f.jpg',
         idPartido: 2968,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -45439,7 +45439,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'FARFAN FERNANDEZ DE CROCE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/59b49a64-58ab-4ed0-b810-8ba4de03f79c.jpg',
         idPartido: 2968,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -45448,7 +45448,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ALEJO SAENZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/ce2e127a-6f58-42cb-81e1-1703ed807bf0.jpg',
         idPartido: 2968,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -45457,7 +45457,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MORALES ANGULO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/9cd601ff-c24c-451c-bd8c-dd1c5563cb4c.jpg',
         idPartido: 2968,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -45502,7 +45502,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'VARGAS CACERES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/d113cba0-734e-4edf-a257-7c15e4786e86.jpg',
         idPartido: 2941,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -45511,7 +45511,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'PEREZ PEREZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f3de18fd-0811-48f6-8179-908e24168b1f.jpg',
         idPartido: 2941,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -45520,7 +45520,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'PAREDES CALDERON',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/cce755a7-0268-4653-95c0-4fe07299d36d.jpg',
         idPartido: 2941,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -46015,7 +46015,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'BENITEZ GAMBIRAZIO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/03353842-7832-41fd-b65f-d22c140bbe8e.jpg',
         idPartido: 2961,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -46024,7 +46024,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'SACO VERTIZ ENDE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/43d24fad-c96e-42be-b2c9-d7e91a0ebd5c.jpg',
         idPartido: 2961,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -46546,7 +46546,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MARTELL ORTIZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/cbe2d0a1-9912-4987-8803-42603de4e31c.jpg',
         idPartido: 2956,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -46555,7 +46555,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'LOPEZ CHAVEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/ba486d04-2778-4241-915d-7a72f6196032.jpg',
         idPartido: 2956,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -46564,7 +46564,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ROJAS USHIÑAHUA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/78592f60-d762-4db9-938c-647fd2f41662.jpg',
         idPartido: 2956,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -46573,7 +46573,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'JIMENEZ ENCISO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/1d6391de-dc18-4d23-b733-2b377d252d26.jpg',
         idPartido: 2956,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -46654,7 +46654,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RAMIREZ MENDOZA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/55e9c8f4-5ccc-4466-b4d3-c0be8219f7a1.jpg',
         idPartido: 2956,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 3,
     },
     {
@@ -47014,7 +47014,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'ELMORE CASTRO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/dea0393f-3146-4401-9c24-29587001ca86.jpg',
         idPartido: 2967,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -47023,7 +47023,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MAMANI FLORES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f27c906e-8009-4a75-9ff8-8556bf3418f7.jpg',
         idPartido: 2967,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 3,
     },
     {
@@ -47032,7 +47032,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'TRINIDAD VEGA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c2e664f2-cc17-4469-a64a-7fbb2ce59b8e.jpg',
         idPartido: 2967,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -47041,7 +47041,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'LIVA EYZAGUIRRE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/4ee2b504-9374-4f8c-b10a-cd9218683b67.jpg',
         idPartido: 2967,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -47662,7 +47662,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MARUJO PUENTE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/bc639882-857e-4711-9e02-03cf8110a73b.jpg',
         idPartido: 2967,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 4,
     },
     {
@@ -47671,7 +47671,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'RAMIREZ CIENFUEGOS VDA DE ZELADA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/70003b18-b20a-440f-8b91-dc64c58a4329.jpg',
         idPartido: 2967,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -48283,7 +48283,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'LEANDRO ARCE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/207698c9-08c4-4952-8dd2-0dae40f2d218.jpg',
         idPartido: 2921,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -48913,7 +48913,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MESTA DELGADO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/1bc90c0a-a244-4427-8f69-50eb9758b06c.jpg',
         idPartido: 3024,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -49111,7 +49111,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'BALAREZO MESONES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/dcb3c7f9-5e01-495b-a180-7a0448156b6a.jpg',
         idPartido: 3023,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 4,
     },
     {
@@ -49120,7 +49120,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'GUTIERREZ VELEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/93f4e369-e3c3-472f-956b-956fb37ef000.jpg',
         idPartido: 3023,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -49129,7 +49129,7 @@ export const listaCandidatosDiputados: Candidato[] = [
         apellidos: 'MORRIS SANTA CRUZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/d45221a3-018a-4aa0-a741-5dc29b214dce.jpg',
         idPartido: 3023,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {

@@ -8872,7 +8872,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'FLORES ALBORNOZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/6153ff1e-8110-4e33-b234-8a834103683e.jpg',
         idPartido: 14,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -8881,7 +8881,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ROSALES MANUEL',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/4f7daaef-0281-4cd2-a9c5-520ef0db3f03.jpg',
         idPartido: 14,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -8890,7 +8890,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'PARIENTES RAMOS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/84ba077c-9c4e-4c10-8674-e411d5f7b340.jpg',
         idPartido: 22,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -8899,7 +8899,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'PITMAN RAMIREZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/7fd8ffa4-d168-42df-b8f5-dc775f79aef6.jpg',
         idPartido: 1257,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -8908,7 +8908,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'VARGAS CHOQUE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/88aed57a-8e22-42e1-b907-f798940043f7.jpg',
         idPartido: 1264,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -8917,7 +8917,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'SANCHEZ PALOMINO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f6b3f4df-5d50-4c8f-8835-a40c3b4fcfa6.jpg',
         idPartido: 1264,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -8926,7 +8926,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ROMAN BUSTINZA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/9c13648f-882b-4ee7-b10e-ef7135b26fa1.jpg',
         idPartido: 1366,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -8935,7 +8935,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'MELGAR VALDEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/2d527059-8586-4a8d-9224-a08d4d3dc223.jpg',
         idPartido: 1366,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -8944,7 +8944,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'CHINCHAY PERALTA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/dc89b5de-594e-4b56-8aa6-074347422be6.jpg',
         idPartido: 2840,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -8953,7 +8953,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'VASQUEZ MORENO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/ab6c8d51-ac16-46bb-9c54-dfe4005413b1.jpg',
         idPartido: 2840,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -8962,7 +8962,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'GUTIERREZ LUYO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/13c2a12b-90f7-4581-ac1e-6212413a4000.jpg',
         idPartido: 2857,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -8971,7 +8971,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'PEÑA GIRON',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/1d3ac203-b235-45f2-b929-8324ca8fe9bb.jpg',
         idPartido: 2173,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -8980,7 +8980,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'MARTINEZ BACA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/b9bf6a67-dd26-472f-bf14-f6007ea5fdbc.jpg',
         idPartido: 2173,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -8989,7 +8989,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ESPINOZA PEREZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/439ecfe5-e7da-4969-bce2-00c35584b38e.jpg',
         idPartido: 2218,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -8998,7 +8998,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'YAYA GOMEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/22a6cfee-a9ca-4083-be4a-90da1de2c7c9.jpg',
         idPartido: 2218,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9007,7 +9007,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ENCARNACION VALENTIN',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/798a2f1d-4c37-4336-827b-4dce61f460a8.jpg',
         idPartido: 2939,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9016,7 +9016,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ALAGON HUAMANI',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/eaa1e54f-bb29-408b-b16c-9d244bf0f659.jpg',
         idPartido: 2939,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9025,7 +9025,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'AUBERT MENDIBURU',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/512f6be1-3c66-4248-8372-c163c47698f3.jpg',
         idPartido: 2935,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9034,7 +9034,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'RUIZ PINGO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/79b52d21-9475-41bd-a2ec-2d0e4798af5c.jpg',
         idPartido: 2935,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9043,7 +9043,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'MANRIQUE CHIRITO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/a804e558-93a0-4b0f-a0f5-8ac4599d66ee.jpg',
         idPartido: 2933,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9052,7 +9052,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ALVA RAMIS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f41d4376-07ae-4e33-b00c-d1c7d992034e.jpg',
         idPartido: 2933,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9061,7 +9061,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'CARVALLO GAUTHIER',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f86d42ef-2db9-4dab-9fd5-ab8433b918c7.jpg',
         idPartido: 2930,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9070,7 +9070,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'MARIN GOÑY',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/07370270-94a4-451d-8021-7dd50c485549.jpg',
         idPartido: 2930,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9079,7 +9079,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'GRACIANO MORALES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c9bb949a-87f1-48bc-8b7b-46030e050233.jpg',
         idPartido: 2932,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9088,7 +9088,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'HUAMAN MAYTA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/6c10f366-517a-4b5c-86b1-7c7e84b0fb89.jpg',
         idPartido: 2932,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9097,7 +9097,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'PUCHOC CHUCO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/2a2f9c1d-8d6e-4139-9800-dd4a065e77d8.jpg',
         idPartido: 2925,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9106,7 +9106,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'BAILON HUERTA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/55bd66a5-1361-4461-a40c-aafe65757833.jpg',
         idPartido: 2924,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9115,7 +9115,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'SANTANA ESPINOZA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/d12204ab-9651-4b49-882a-422a5b3bd0e3.jpg',
         idPartido: 2931,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9124,7 +9124,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'LEON DURAND',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/101701e6-99cc-49d8-a864-853c1b97b8ed.jpg',
         idPartido: 2931,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9133,7 +9133,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'BAUTISTA NAVARRO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/e85a4b44-b87e-4971-8d5d-1bdf3949e800.jpg',
         idPartido: 2731,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9142,7 +9142,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'PINEDO CANEPA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/388aa146-d50b-4e42-aeae-495d6007a28e.jpg',
         idPartido: 2927,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9151,7 +9151,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'GARCIA PADILLA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/8c22ff5b-7633-4459-9000-78fcdfcd3e60.jpg',
         idPartido: 2927,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9160,7 +9160,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'TABUADA MARTINEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/a70b0967-9348-4211-8ce7-17d1c1790dc6.jpg',
         idPartido: 2901,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9169,7 +9169,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'MORALES ASTETE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f0dc3bda-a55d-4aaf-bf17-ec745436be37.jpg',
         idPartido: 2901,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9178,7 +9178,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'GAGO ARENAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/1c56d0c6-8018-40bb-bc04-d314c4c48c39.jpg',
         idPartido: 2898,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9187,7 +9187,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'SOTO CHAVEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/6c4e3dd7-045d-490b-ae1b-47272b0c781d.jpg',
         idPartido: 2898,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9196,7 +9196,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ALMERI VERAMENDI',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c36c5842-12e2-4736-a89a-c6bb5861a3c4.jpg',
         idPartido: 2895,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9205,7 +9205,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'CAHUAS GONZALES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/479a2da7-5283-4c0b-931a-b67e92d90337.jpg',
         idPartido: 2895,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9214,7 +9214,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ROSADO CADILLO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/b430a0ce-63ae-42ec-a5d5-bb2f63c11fe7.jpg',
         idPartido: 2985,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9223,7 +9223,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'VALDERRAMA SANCHEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c1fb63f2-4b0b-4ea9-b399-f95fc50a504e.jpg',
         idPartido: 2998,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9232,7 +9232,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'LEYTON RUIZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/caa099f7-7f44-4568-960a-025104178e96.jpg',
         idPartido: 2998,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9241,7 +9241,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ASIN MELENDEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/14a3ea4b-77c8-4045-994b-4f73d8e3c9a8.jpg',
         idPartido: 2980,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9250,7 +9250,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'MOSQUERA BARRETO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c95ae7c3-43e9-4ffb-a4e5-e0794acbc55c.jpg',
         idPartido: 2980,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9259,7 +9259,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'TORRES AGUILAR',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/3080e2e1-6a2f-4447-bf2f-f2a1fe3f2f25.jpg',
         idPartido: 2941,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9268,7 +9268,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'GONZALES ARREDONDO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/a50aab7a-d773-42f4-8175-078641bc8944.jpg',
         idPartido: 2941,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9277,7 +9277,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'MONTEBLANCO RIOS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/345b8720-073d-4999-becc-ea9750b720bc.jpg',
         idPartido: 2961,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9286,7 +9286,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'LUNA NEYRA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c45c811c-be48-423f-944f-fda113197869.jpg',
         idPartido: 2961,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9295,7 +9295,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'MINAYA MENDOZA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/058fe8a3-b422-4cb8-9e23-5f3fddef8781.jpg',
         idPartido: 2986,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9304,7 +9304,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'MUÑOZ MEDINA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/78c9a248-366b-44c6-96a8-3201c8d77b95.jpg',
         idPartido: 2986,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9313,7 +9313,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'LAZARTE CABALLERO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/255a6ef2-9e66-41f5-b883-54aaf92ae384.jpg',
         idPartido: 2956,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9322,7 +9322,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'TAMINCHI MARTINEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/151a8f87-ebb2-4afa-a942-ad9104f17a3e.jpg',
         idPartido: 2995,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9331,7 +9331,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'CABANILLAS PEZO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/ed75cf81-26b8-4db1-88a7-aaed73abde85.jpg',
         idPartido: 2921,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9340,7 +9340,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'VALLE FLORES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/70f9d399-2574-491c-8c9e-ee46058154d5.jpg',
         idPartido: 2921,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9349,7 +9349,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'VALERIO CHAHUA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/79ffe962-eed4-4b2e-ade1-f4b825f63d2a.jpg',
         idPartido: 3025,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -9358,7 +9358,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'FELICIANO RETUERTO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f4d05419-43ac-4b56-bfde-ee2f4be3fbf1.jpg',
         idPartido: 3024,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -9367,7 +9367,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ELESCANO NINAHUANCA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/27fcb328-2014-45f6-af7f-7a661e730b37.jpg',
         idPartido: 3023,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -10285,7 +10285,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'MALCA ALVARIÑO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/50e58844-4502-4174-bef7-723f485fbe22.jpg',
         idPartido: 14,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10294,7 +10294,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'MIRANDA SANCHEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/e608d976-36aa-4abe-a457-28d3e2f2d12a.jpg',
         idPartido: 14,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10303,7 +10303,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'BARRENECHEA VALDIVIA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/5601b7d8-f96f-4d99-bae0-88c7c351a8de.jpg',
         idPartido: 22,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10312,7 +10312,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'HEREDIA VASQUEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/ea8db43a-85f3-43a9-a4a7-1b82de5df069.jpg',
         idPartido: 1257,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10321,7 +10321,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'VEGA VARGAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/cfb8e4a0-8374-4e13-b21d-b76fbbde0249.jpg',
         idPartido: 1257,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10330,7 +10330,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'BASTIDAS ROMERO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f187a7a2-acef-4c41-8a31-a2d6b8482167.jpg',
         idPartido: 1264,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10339,7 +10339,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'MAYDANA VILCA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/58f40029-deae-4d37-9efe-191de9e3e2d9.jpg',
         idPartido: 1264,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10348,7 +10348,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'CAYCHO ARENAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/414dcb7d-c979-4230-9d90-299914209679.jpg',
         idPartido: 2840,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10357,7 +10357,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'CRIBILLERO VELASQUEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/8b49789d-649a-422f-bdf1-bee8e5056ffe.jpg',
         idPartido: 2840,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10366,7 +10366,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'GARCIA TORRES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/d8a976cc-a1a4-4f6f-86e0-9bb3ab34171b.jpg',
         idPartido: 2173,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10375,7 +10375,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'AMORIN LEON',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/9c6bfa01-ece9-4c3b-b48c-b91cd0147d48.jpg',
         idPartido: 2173,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10384,7 +10384,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'PALACIOS QUINCHO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/ed3ebca7-4360-4801-b931-6bc2cfb41fb5.jpg',
         idPartido: 2218,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10393,7 +10393,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'VALVERDE SANCHEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/b9577bab-aa38-42e1-96f6-d0c0497342fc.jpg',
         idPartido: 2218,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10402,7 +10402,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ALMONACID REITERER',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/ac62574f-2132-4f23-8f78-9ac596dbe3a4.jpg',
         idPartido: 2935,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10411,7 +10411,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'GAINZA EKONEN DE GUZMAN-BARRON',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/4784e641-b9c9-4308-b636-6f6cc5e8d168.jpg',
         idPartido: 2935,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10420,7 +10420,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ROMERO VELA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/441ac86e-64b5-4935-a520-ca2d0448c0da.jpg',
         idPartido: 2933,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10429,7 +10429,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'HUILLCAS HUAYAMA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/d03b4866-e0c0-4d99-807f-70e56e32f7d9.jpg',
         idPartido: 2933,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10438,7 +10438,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'HERRERA MARTINEZ DE CALERO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/199d4574-d305-41a0-8634-0e635a3b9ecd.jpg',
         idPartido: 2930,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10447,7 +10447,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'TELLO VALCARCEL',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/13ee0f95-cba8-46ff-bc84-8bd3a786af6d.jpg',
         idPartido: 2930,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10456,7 +10456,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'BLANCAS CHAVEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/4509089c-6cb8-4f56-9008-b80087eb7096.jpg',
         idPartido: 2925,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10465,7 +10465,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'BRITO VEGA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/0e5b852f-036d-4805-a1ca-1f3de08f6c49.jpg',
         idPartido: 2924,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10474,7 +10474,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ESTRADA VILLENA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/81b3bd7b-ab24-4ced-9f9b-966c4da6c2e9.jpg',
         idPartido: 2931,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10483,7 +10483,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'SALINAS GERVASSI DE FILLOL',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/4ec21e06-3dbe-4c82-991b-1bd03089054f.jpg',
         idPartido: 2931,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10492,7 +10492,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'QUINTANILLA LOZANO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/9cf5c93a-9dd7-4296-9df0-58e31c52e84b.jpg',
         idPartido: 2731,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10501,7 +10501,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'LOZA LARA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/da63fcb6-f084-41ef-ab0c-7afec172e658.jpg',
         idPartido: 2927,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10510,7 +10510,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'IBARRA MONTES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f35eb0ef-7626-44f2-96ec-ae890c104cc9.jpg',
         idPartido: 2927,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10519,7 +10519,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'SALAS CORI',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/4e132af8-1e8c-42d5-8b30-3d18f4d338af.jpg',
         idPartido: 2901,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10528,7 +10528,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'CORONADO LAIZA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/8c3bd61a-c680-4af9-80ed-ba746556d4e0.jpg',
         idPartido: 2901,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10537,7 +10537,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'CORONEL RODRIGUEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/4bbf0307-9f7c-4168-8022-290438780f6c.jpg',
         idPartido: 2867,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10546,7 +10546,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ALDERETE CONDOR',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/50dea600-7d96-4b68-a9c2-82dcf0e8d04a.jpg',
         idPartido: 2867,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10555,7 +10555,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'CORRO AGUILAR',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/18f5e2a5-c5aa-49f1-a9d7-60b82df48074.jpg',
         idPartido: 2895,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10564,7 +10564,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'BONILLA ORTEGA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/ff62f25b-7bff-4472-8631-b182ff530ad5.jpg',
         idPartido: 2895,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10573,7 +10573,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'HERNANDEZ CHAVEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/266d2a72-fe98-4fbf-b442-79428b32bb50.jpg',
         idPartido: 2985,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10582,7 +10582,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'OLORTEGUI BURGOS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/fe81fb7f-78e1-4f4e-b906-5b431674d1f3.jpg',
         idPartido: 2998,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10591,7 +10591,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'SALINAS GOMEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/870a19be-d46d-4921-942f-98437e7d323b.jpg',
         idPartido: 2980,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10600,7 +10600,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'BLONDET SAAVEDRA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/79db5c18-e689-40c1-acee-d395d7f6d4be.jpg',
         idPartido: 2961,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10609,7 +10609,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'VEGA CABIESES',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/d72621e5-fe7d-4fb5-8d91-3a4960f745e9.jpg',
         idPartido: 2961,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10618,7 +10618,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'VALENCIA ZAMBRANO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/930d92ef-a722-44a1-8a6d-374f001d82c7.jpg',
         idPartido: 2956,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10627,7 +10627,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'CHAVEZ VARGAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/77357e9e-fc4a-4a25-9a56-d40b9d4813e4.jpg',
         idPartido: 2956,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10636,7 +10636,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'CORTEZ NINA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/bd069616-d6ad-42a2-854c-b8509692c49d.jpg',
         idPartido: 2995,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10645,7 +10645,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'VELA REATEGUI DE DIAZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c7a78daf-ac8f-4dc2-97b4-c46d64f82e78.jpg',
         idPartido: 2995,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10654,7 +10654,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ECHEVERRIA AYQUIPA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/5e8fd6ce-9a50-41e5-b04a-e39ac4572c11.jpg',
         idPartido: 3025,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10663,7 +10663,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'BAZO PACHECO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/7b4a9b52-7bd4-4019-a901-b0a772d59d3e.jpg',
         idPartido: 3025,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -10672,7 +10672,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'MEDINA MEDINA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/66734425-6de9-47d6-8b12-50246fd7e104.jpg',
         idPartido: 3024,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -10681,7 +10681,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'MATALLANA ARANA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/82f6cf59-c3d6-4dfc-9fd5-8d6312e74388.jpg',
         idPartido: 3023,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -13210,7 +13210,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ALVARADO GONZALES DEL VALLE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/e0622da8-c756-4d54-b087-39498bface54.jpg',
         idPartido: 22,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -13228,7 +13228,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'VELASQUEZ GARCIA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f526053a-32bd-4f15-b314-92c9603db466.jpg',
         idPartido: 22,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -13363,7 +13363,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'BERNAL PALACIOS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c2c413d4-aae2-4d80-b335-e6e94ef485a8.jpg',
         idPartido: 1257,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -13480,7 +13480,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'GALVEZ ALTAMIRANO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/913dfd93-1bf0-4866-ab6f-05c1a8faf85f.jpg',
         idPartido: 1366,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -13489,7 +13489,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'LEON POMA DE ACOSTA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/8381f22a-b396-4fd1-afc5-eb801ac3a952.jpg',
         idPartido: 1366,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -13660,7 +13660,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'AZARTE AZARTE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/3ad60a24-e3a0-41d6-92e7-e90d4540bc7f.jpg',
         idPartido: 2857,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -13669,7 +13669,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'DANS BUTRON',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/75ceb7d3-b315-49ca-8910-30f64ab456a7.jpg',
         idPartido: 2857,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -13705,7 +13705,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'PALOMINO LIMAYLLA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/6efbb9b1-6181-48cf-8db0-9fa6a591405e.jpg',
         idPartido: 2857,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -13894,7 +13894,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'INGA ADAUTO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f3245b5b-5e65-4605-a258-9a4b4dade6c7.jpg',
         idPartido: 2939,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -13903,7 +13903,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'LEYVA SANCHEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/0d646e40-307e-4400-83f6-b27bf38ff06a.jpg',
         idPartido: 2939,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -14146,7 +14146,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ESPINOZA VEGA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/a732ecac-b8f1-418c-b7e7-c44605febf39.jpg',
         idPartido: 2932,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -14155,7 +14155,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'PEREDO OCAMPO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/8bdf6403-df71-42be-983d-f87e9490c14e.jpg',
         idPartido: 2932,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -14245,7 +14245,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'YACTAYO BARRETO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/5b1eea51-0975-4757-99f6-2b00a6d08bb9.jpg',
         idPartido: 2925,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -14335,7 +14335,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'BERROSPI ESPINOZA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f45fa211-1a1f-4c84-a2c3-e962b5178e1c.jpg',
         idPartido: 2925,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -14398,7 +14398,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'BARAHONA CAMPOS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f692fc21-7ffa-4078-b563-ced9f57e96e6.jpg',
         idPartido: 2924,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -14434,7 +14434,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'MESIA GOTTO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f221f061-b999-4b9e-8954-b63cbe77e698.jpg',
         idPartido: 2924,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -14443,7 +14443,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'PIZARRO CALATAYUD',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/7ff42238-35cb-4206-933f-80527dce1c27.jpg',
         idPartido: 2731,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -14470,7 +14470,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'PRADO TAPIA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/970660d1-db8f-48bc-bcd8-e3e59d771cf7.jpg',
         idPartido: 2731,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -14965,7 +14965,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ORE BAZALAR',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/512bdc8a-b474-4c63-8881-cae7bd611290.jpg',
         idPartido: 2867,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -14974,7 +14974,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ORDOÑEZ ARBIZU',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/bb80f313-2dbb-48d6-9021-783bd6360d6e.jpg',
         idPartido: 2867,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -15226,7 +15226,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'REAÑO ROJAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/8eb708d3-f6a7-4800-9130-3d22ff242877.jpg',
         idPartido: 2985,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -15289,7 +15289,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'OLORTEGUI QUISPE',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/a6f61975-9a68-4954-89f8-23b61b79018e.jpg',
         idPartido: 2985,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -15406,7 +15406,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'NEYRA ALVAREZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f92e798e-b144-4a3c-89e0-7b0868aad22e.jpg',
         idPartido: 2998,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -15478,7 +15478,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'MOLINA ROMERO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/8738fe95-b9ed-422d-833a-0ce7d9305c51.jpg',
         idPartido: 2980,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -15523,7 +15523,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ZAMORA VERCELLI',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c8046880-205f-4b0e-bebd-22642b7e56a6.jpg',
         idPartido: 2941,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -15532,7 +15532,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'PEREZ YAÑEZ',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/ae18d507-4d7d-4ab6-a146-92bf86d4737f.jpg',
         idPartido: 2941,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 1,
     },
     {
@@ -15757,7 +15757,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'LOZADA FRIAS',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/4f0e1ba4-145e-4058-8148-2c65a8b85058.jpg',
         idPartido: 2956,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -15865,7 +15865,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'CAIRA YUCRA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/f632b88f-d958-406f-aa77-5e28f0af58b0.jpg',
         idPartido: 2995,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -15946,7 +15946,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'BOJORQUEZ FRANCIA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/e421f8ec-d021-48e0-a9c4-1cbb5161cf8c.jpg',
         idPartido: 2967,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -15955,7 +15955,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'VEGA REMIGIO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/c1609d2f-1bbd-4c7b-b9fc-9a0a4f033c9f.jpg',
         idPartido: 2967,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -16279,7 +16279,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'RAMIREZ VALDERRAMA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/4b3f149c-df37-4a73-9563-8dcf17197bc5.jpg',
         idPartido: 3025,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
     {
@@ -16342,7 +16342,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'ROMERO LUPACA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/7257266d-cb21-4361-929f-fabcf655c9d7.jpg',
         idPartido: 3024,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -16378,7 +16378,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'COA ALFARO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/78cc0ebb-edc7-4393-bc5c-b57df30b1a8a.jpg',
         idPartido: 3024,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 1,
     },
     {
@@ -16486,7 +16486,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'COLONA GUEVARA DE ZAMUDIO',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/cb845368-71db-4868-b85c-010b47d5584a.jpg',
         idPartido: 3023,
-        idUbigeo: 14,
+        idUbigeo: 27,
         posicion: 2,
     },
     {
@@ -16495,7 +16495,7 @@ export const listaCandidatosSenadoresDistritoMultiple: Candidato[] = [
         apellidos: 'MENESES RIVADENEYRA',
         fotoUrl: 'https://mpesije.jne.gob.pe/apidocs/04950891-e193-4da6-8160-9d07447fb688.jpg',
         idPartido: 3023,
-        idUbigeo: 14,
+        idUbigeo: 26,
         posicion: 2,
     },
 ];
