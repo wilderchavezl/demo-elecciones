@@ -7,6 +7,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { CandidatoRequest } from '@shared/models/candidatos.model';
 import { PartidoPolitico } from '@shared/models/partidos-politicos.model';
 import { CandidatosSenadoresDistritoUnicoService } from '@shared/services/candidatos-senadores-distrito-unico.service';
+import { LocalStorageService } from '@shared/services/local-storage.service';
 import { PartidosPoliticosService } from '@shared/services/partidos-politicos.service';
 import { cloneDeep } from 'lodash-es';
 
@@ -18,6 +19,8 @@ import { cloneDeep } from 'lodash-es';
 export class SenadoresDistritoUnicoComponent implements OnInit {
     private candidatosService = inject(CandidatosSenadoresDistritoUnicoService);
     private partidosPoliticosService = inject(PartidosPoliticosService);
+    private localStorageService = inject(LocalStorageService);
+    private storageKey = 'senadores-distrito-unico';
     private candidatos: CandidatoRequest[] = [];
 
     public candidatosFiltrados: CandidatoRequest[] = [];
@@ -35,6 +38,14 @@ export class SenadoresDistritoUnicoComponent implements OnInit {
     ];
 
     ngOnInit(): void {
+        this.candidatosSeleccionados = this.localStorageService.loadSeleccionados(this.storageKey);
+
+        const savedForm = this.localStorageService.loadFormValues(this.storageKey);
+
+        if (savedForm) {
+            this.formGroup.patchValue(savedForm);
+        }
+
         this.getCandidatosDiputados();
         this.getPartidosPoliticos();
     }
@@ -48,6 +59,7 @@ export class SenadoresDistritoUnicoComponent implements OnInit {
             next: (response) => {
                 this.candidatos = response.data;
                 this.candidatosFiltrados = cloneDeep(this.candidatos);
+                this.filtrarCandidatos();
             },
         });
     }
@@ -73,10 +85,14 @@ export class SenadoresDistritoUnicoComponent implements OnInit {
             this.candidatosSeleccionados.set(id, seleccion);
         }
 
+        this.localStorageService.saveSeleccionados(this.storageKey, this.candidatosSeleccionados);
+
         this.filtrarCandidatos();
     }
 
     public filtrarCandidatos(): void {
+        this.localStorageService.saveFormValues(this.storageKey, this.formGroup.getRawValue());
+
         const seleccionValue = this.formGroup.get('seleccion')?.value || [];
         const partidoValue = this.formGroup.get('partido')?.value || null;
 

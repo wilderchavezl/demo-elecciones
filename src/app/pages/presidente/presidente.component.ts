@@ -6,6 +6,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { CandidatoRequest } from '@shared/models/candidatos.model';
 import { CandidatosPresidenteService } from '@shared/services/candidatos-presidente.service';
+import { LocalStorageService } from '@shared/services/local-storage.service';
 import { cloneDeep } from 'lodash-es';
 
 @Component({
@@ -15,6 +16,8 @@ import { cloneDeep } from 'lodash-es';
 })
 export class PresidenteComponent implements OnInit {
     private candidatosService = inject(CandidatosPresidenteService);
+    private localStorageService = inject(LocalStorageService);
+    private storageKey = 'presidente';
     private candidatos: CandidatoRequest[] = [];
 
     public candidatosFiltrados: CandidatoRequest[] = [];
@@ -30,6 +33,14 @@ export class PresidenteComponent implements OnInit {
     ];
 
     ngOnInit(): void {
+        this.candidatosSeleccionados = this.localStorageService.loadSeleccionados(this.storageKey);
+
+        const savedForm = this.localStorageService.loadFormValues(this.storageKey);
+
+        if (savedForm) {
+            this.formGroup.patchValue(savedForm);
+        }
+
         this.getCandidatosPresidente();
     }
 
@@ -42,6 +53,7 @@ export class PresidenteComponent implements OnInit {
             next: (response) => {
                 this.candidatos = response.data;
                 this.candidatosFiltrados = cloneDeep(this.candidatos);
+                this.filtrarCandidatos();
             },
         });
     }
@@ -59,10 +71,14 @@ export class PresidenteComponent implements OnInit {
             this.candidatosSeleccionados.set(id, seleccion);
         }
 
+        this.localStorageService.saveSeleccionados(this.storageKey, this.candidatosSeleccionados);
+
         this.filtrarCandidatos();
     }
 
     public filtrarCandidatos(): void {
+        this.localStorageService.saveFormValues(this.storageKey, this.formGroup.getRawValue());
+
         const seleccionValue = this.formGroup.get('seleccion')?.value || [];
 
         this.candidatosFiltrados = this.candidatos.filter((candidato) => {

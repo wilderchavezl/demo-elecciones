@@ -8,6 +8,7 @@ import { CandidatoRequest } from '@shared/models/candidatos.model';
 import { PartidoPolitico } from '@shared/models/partidos-politicos.model';
 import { Ubigeo } from '@shared/models/ubigeo.model';
 import { CandidatosDiputadosService } from '@shared/services/candidatos-diputados.service';
+import { LocalStorageService } from '@shared/services/local-storage.service';
 import { PartidosPoliticosService } from '@shared/services/partidos-politicos.service';
 import { UbigeoService } from '@shared/services/ubigeo.service';
 import { cloneDeep } from 'lodash-es';
@@ -21,6 +22,8 @@ export class DiputadosComponent implements OnInit {
     private candidatosService = inject(CandidatosDiputadosService);
     private ubigeoService = inject(UbigeoService);
     private partidosPoliticosService = inject(PartidosPoliticosService);
+    private localStorageService = inject(LocalStorageService);
+    private storageKey = 'diputados';
     private candidatos: CandidatoRequest[] = [];
 
     public candidatosFiltrados: CandidatoRequest[] = [];
@@ -40,6 +43,14 @@ export class DiputadosComponent implements OnInit {
     });
 
     ngOnInit(): void {
+        this.candidatosSeleccionados = this.localStorageService.loadSeleccionados(this.storageKey);
+
+        const savedForm = this.localStorageService.loadFormValues(this.storageKey);
+
+        if (savedForm) {
+            this.formGroup.patchValue(savedForm);
+        }
+
         this.getCandidatosDiputados();
         this.getUbigeos();
         this.getPartidosPoliticos();
@@ -88,10 +99,14 @@ export class DiputadosComponent implements OnInit {
             this.candidatosSeleccionados.set(id, seleccion);
         }
 
+        this.localStorageService.saveSeleccionados(this.storageKey, this.candidatosSeleccionados);
+
         this.filtrarCandidatos();
     }
 
     public filtrarCandidatos(): void {
+        this.localStorageService.saveFormValues(this.storageKey, this.formGroup.getRawValue());
+
         const seleccionValue = this.formGroup.get('seleccion')?.value || [];
         const partidoValue = this.formGroup.get('partido')?.value || null;
         const ubigeoValue = this.formGroup.get('ubigeo')?.value || null;
