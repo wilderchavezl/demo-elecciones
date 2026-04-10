@@ -17,7 +17,6 @@ export const listaUbigeo: Ubigeo[] = [
     { id: 13, ubigeo: '130000', departamento: 'Lambayeque' },
     { id: 14, ubigeo: '140100', departamento: 'Lima Metropolitana' },
     { id: 26, ubigeo: '140000', departamento: 'Lima Provincias' },
-    { id: 27, ubigeo: '140133', departamento: 'Peruanos Residentes En El Extranjero' },
     { id: 15, ubigeo: '150000', departamento: 'Loreto' },
     { id: 16, ubigeo: '160000', departamento: 'Madre De Dios' },
     { id: 17, ubigeo: '170000', departamento: 'Moquegua' },
@@ -28,4 +27,5 @@ export const listaUbigeo: Ubigeo[] = [
     { id: 22, ubigeo: '220000', departamento: 'Tacna' },
     { id: 23, ubigeo: '230000', departamento: 'Tumbes' },
     { id: 25, ubigeo: '250000', departamento: 'Ucayali' },
+    { id: 27, ubigeo: '140133', departamento: 'Peruanos Residentes En El Extranjero' },
 ];
