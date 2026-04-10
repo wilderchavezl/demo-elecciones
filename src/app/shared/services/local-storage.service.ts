@@ -1,6 +1,9 @@
-import { Injectable } from '@angular/core';
+import { Location } from '@angular/common';
+import { inject, Injectable } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
+import { filter } from 'rxjs';
 
-const STORAGE_KEY = 'elecciones';
+const QUERY_PARAM = 'data';
 
 interface StorageEntry {
     seleccionados: [number, boolean][];
@@ -12,20 +15,25 @@ interface StorageEntry {
 })
 export class LocalStorageService {
     private data: Record<string, StorageEntry> = {};
+    private router = inject(Router);
+    private location = inject(Location);
 
     /**
      * Constructor
      */
     constructor() {
-        const raw = localStorage.getItem(STORAGE_KEY);
+        const params = new URLSearchParams(window.location.search);
+        const encoded = params.get(QUERY_PARAM);
 
-        if (raw) {
+        if (encoded) {
             try {
-                this.data = JSON.parse(raw);
+                this.data = JSON.parse(atob(encoded));
             } catch {
                 this.data = {};
             }
         }
+
+        this.router.events.pipe(filter((event) => event instanceof NavigationEnd)).subscribe(() => this.updateUrl());
     }
 
     // -----------------------------------------------------------------------------------------------------
@@ -37,7 +45,7 @@ export class LocalStorageService {
 
         this.data[key].seleccionados = Array.from(seleccionados.entries());
 
-        this.persist();
+        this.updateUrl();
     }
 
     public loadSeleccionados(key: string): Map<number, boolean> {
@@ -55,7 +63,7 @@ export class LocalStorageService {
 
         this.data[key].form = values;
 
-        this.persist();
+        this.updateUrl();
     }
 
     public loadFormValues(key: string): Record<string, unknown> | null {
@@ -72,7 +80,16 @@ export class LocalStorageService {
         }
     }
 
-    private persist(): void {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(this.data));
+    private updateUrl(): void {
+        if (Object.keys(this.data).length === 0) {
+            return;
+        }
+
+        const encoded = btoa(JSON.stringify(this.data));
+        const urlTree = this.router.parseUrl(this.router.url);
+
+        urlTree.queryParams = { ...urlTree.queryParams, [QUERY_PARAM]: encoded };
+
+        this.location.replaceState(this.router.serializeUrl(urlTree));
     }
 }
