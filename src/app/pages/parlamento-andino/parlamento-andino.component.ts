@@ -23,16 +23,16 @@ export class ParlamentoAndinoComponent implements OnInit {
     public candidatosFiltrados: CandidatoRequest[] = [];
     public candidatosSeleccionados = new Map<number, boolean>();
     public partidosPoliticos: PartidoPolitico[] = [];
-
-    public formGroup = new FormGroup({
-        partido: new FormControl<number | null>(null),
-        seleccion: new FormControl<string[]>(['empty', 'true', 'false']),
-    });
     public selecciones = [
         { value: 'empty', label: 'Vacíos' },
         { value: 'true', label: 'SI' },
         { value: 'false', label: 'NO' },
     ];
+
+    public formGroup = new FormGroup({
+        partido: new FormControl<number | null>(null),
+        seleccion: new FormControl<string[]>(['empty', 'true', 'false']),
+    });
 
     ngOnInit(): void {
         this.getCandidatosDiputados();
