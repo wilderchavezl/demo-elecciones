@@ -19,6 +19,7 @@ export class PresidenteComponent implements OnInit {
 
     public candidatosFiltrados: CandidatoRequest[] = [];
     public candidatosSeleccionados = new Map<number, boolean>();
+
     public formGroup = new FormGroup({
         seleccion: new FormControl<string[]>(['empty', 'true', 'false']),
     });
@@ -58,26 +59,21 @@ export class PresidenteComponent implements OnInit {
             this.candidatosSeleccionados.set(id, seleccion);
         }
 
-        this.filtrarPorSeleccion(this.formGroup.get('seleccion')?.value || []);
+        this.filtrarCandidatos();
     }
 
-    public filtrarPorSeleccion(value: string[]): void {
+    public filtrarCandidatos(): void {
+        const seleccionValue = this.formGroup.get('seleccion')?.value || [];
+
         this.candidatosFiltrados = this.candidatos.filter((candidato) => {
             const seleccion = this.candidatosSeleccionados.get(candidato.id);
 
-            if (value.includes('empty') && seleccion === undefined) {
-                return true;
-            }
+            const seleccionMatch =
+                (seleccionValue.includes('empty') && seleccion === undefined) ||
+                (seleccionValue.includes('true') && seleccion === true) ||
+                (seleccionValue.includes('false') && seleccion === false);
 
-            if (value.includes('true') && seleccion === true) {
-                return true;
-            }
-
-            if (value.includes('false') && seleccion === false) {
-                return true;
-            }
-
-            return false;
+            return seleccionMatch;
         });
     }
 }

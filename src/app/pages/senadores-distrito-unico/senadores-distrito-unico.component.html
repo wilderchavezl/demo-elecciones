@@ -3,45 +3,108 @@
     <!-- Header -->
     <div class="bg-card border-b p-6 dark:bg-transparent sm:py-12 md:px-8">
         <!-- Title -->
-        <div>
-            <div class="text-4xl font-extrabold leading-none tracking-tight">Candidatos Senadores - Distrito Único</div>
+        <div class="flex flex-row items-center justify-between">
+            <div>
+                <div class="text-4xl font-extrabold leading-none tracking-tight">
+                    Candidatos Senadores - Distrito Único
+                </div>
+                <div class="text-secondary font-medium tracking-tight">{{ candidatosFiltrados.length }} Candidatos</div>
+            </div>
+
+            <form [formGroup]="formGroup" class="flex flex-row items-center gap-4">
+                <mat-form-field class="w-50" [subscriptSizing]="'dynamic'">
+                    <mat-label>Filtros de selección</mat-label>
+                    <mat-select
+                        multiple
+                        [formControlName]="'seleccion'"
+                        [placeholder]="'Seleccione un filtro'"
+                        (selectionChange)="filtrarCandidatos()"
+                    >
+                        @for (item of selecciones; track $index) {
+                            <mat-option
+                                [value]="item.value"
+                                [disabled]="
+                                    formGroup.controls['seleccion'].value?.length === 1 &&
+                                    formGroup.controls['seleccion'].value?.includes(item.value)
+                                "
+                                >{{ item.label }}</mat-option
+                            >
+                        }
+                    </mat-select>
+                </mat-form-field>
+
+                <mat-form-field class="w-80" [subscriptSizing]="'dynamic'">
+                    <mat-label>Partidos Políticos</mat-label>
+                    <mat-select
+                        [formControlName]="'partido'"
+                        [placeholder]="'Seleccione un partido político'"
+                        (selectionChange)="filtrarCandidatos()"
+                    >
+                        @for (item of partidosPoliticos; track $index) {
+                            <mat-option [value]="item.id">{{ item.nombre }}</mat-option>
+                        }
+                    </mat-select>
+                </mat-form-field>
+            </form>
         </div>
     </div>
 
     <!-- Items list -->
     <div class="flex flex-col gap-4 overflow-y-auto p-6 md:p-8" cdkScrollable>
-        @for (item of candidatos; track $index) {
-            <div class="bg-card flex flex-row items-center gap-4 rounded-2xl p-4 shadow">
-                <div class="flex flex-row gap-4">
-                    <div class="h-32 w-32 overflow-hidden">
-                        <img
-                            class="h-full w-full object-cover"
-                            [src]="item.partidoPolitico.logoUrl"
-                            [alt]="item.partidoPolitico.nombre"
-                        />
+        @for (item of candidatosFiltrados; track $index) {
+            <div class="bg-card flex flex-row items-center justify-between gap-4 rounded-2xl p-4 shadow">
+                <div class="flex flex-row items-center gap-4">
+                    <div class="flex flex-row gap-4">
+                        <div class="h-32 w-32 overflow-hidden">
+                            <img
+                                class="h-full w-full object-cover"
+                                [src]="item.partidoPolitico.logoUrl"
+                                [alt]="item.partidoPolitico.nombre"
+                            />
+                        </div>
+
+                        <div class="h-32 w-32 overflow-hidden rounded-full border">
+                            <img
+                                class="h-full w-full object-cover"
+                                [src]="item.fotoUrl"
+                                [alt]="item.nombres + ' ' + item.apellidos"
+                            />
+                        </div>
                     </div>
 
-                    <div class="h-32 w-32 overflow-hidden rounded-full border">
-                        <img
-                            class="h-full w-full object-cover"
-                            [src]="item.fotoUrl"
-                            [alt]="item.nombres + ' ' + item.apellidos"
-                        />
+                    <div class="-mt-4 flex flex-col">
+                        <div class="flex flex-row items-center gap-2">
+                            <div class="text-2xl font-semibold leading-8 tracking-tight">
+                                {{ item.nombres }} {{ item.apellidos }}
+                            </div>
+
+                            <div class="text-secondary bg-hover rounded-full px-2 text-lg font-semibold">
+                                {{ item.posicion }}
+                            </div>
+                        </div>
+
+                        <div class="text-secondary text-lg leading-5">{{ item.partidoPolitico.nombre }}</div>
                     </div>
                 </div>
 
-                <div class="-mt-4 flex flex-col">
-                    <div class="flex flex-row items-center gap-2">
-                        <div class="text-2xl font-semibold leading-8 tracking-tight">
-                            {{ item.nombres }} {{ item.apellidos }}
-                        </div>
+                <div class="flex flex-row gap-4">
+                    @let seleccion$ = candidatosSeleccionados.get(item.id);
 
-                        <div class="text-secondary bg-hover rounded-full px-2 text-lg font-semibold">
-                            {{ item.posicion }}
-                        </div>
-                    </div>
+                    <button
+                        class="aspect-square h-26 flex-col items-center justify-center rounded-2xl bg-gray-100 dark:bg-white dark:bg-opacity-5"
+                        [ngClass]="seleccion$ === true ? 'outline-none ring-2 ring-primary ring-offset-2' : ''"
+                        (click)="toggleSeleccionado(item.id, true)"
+                    >
+                        <div class="text-5xl font-semibold leading-none tracking-tight">SI</div>
+                    </button>
 
-                    <div class="text-secondary text-lg leading-5">{{ item.partidoPolitico.nombre }}</div>
+                    <button
+                        class="aspect-square h-26 flex-col items-center justify-center rounded-2xl bg-gray-100 dark:bg-white dark:bg-opacity-5"
+                        [ngClass]="seleccion$ === false ? 'outline-none ring-2 ring-primary ring-offset-2' : ''"
+                        (click)="toggleSeleccionado(item.id, false)"
+                    >
+                        <div class="text-5xl font-semibold leading-none tracking-tight">NO</div>
+                    </button>
                 </div>
             </div>
         }

@@ -4,16 +4,15 @@
     <div class="bg-card border-b p-6 dark:bg-transparent sm:py-12 md:px-8">
         <!-- Title -->
         <div class="flex flex-row items-center justify-between">
-            <div class="text-4xl font-extrabold leading-none tracking-tight">Candidatos Presidenciales</div>
+            <div>
+                <div class="text-4xl font-extrabold leading-none tracking-tight">Candidatos Presidenciales</div>
+                <div class="text-secondary font-medium tracking-tight">{{ candidatosFiltrados.length }} Candidatos</div>
+            </div>
 
             <form [formGroup]="formGroup">
                 <mat-form-field class="w-50" [subscriptSizing]="'dynamic'">
                     <mat-label>Filtros de selección</mat-label>
-                    <mat-select
-                        [formControlName]="'seleccion'"
-                        multiple
-                        (selectionChange)="filtrarPorSeleccion($event.value)"
-                    >
+                    <mat-select [formControlName]="'seleccion'" multiple (selectionChange)="filtrarCandidatos()">
                         @for (item of selecciones; track $index) {
                             <mat-option
                                 [value]="item.value"
