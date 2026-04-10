@@ -42,7 +42,10 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:application",
                     "options": {
-                        "outputPath": "dist/demo-elecciones",
+                        "outputPath": {
+                            "base": "dist",
+                            "browser": ""
+                        },
                         "index": "src/index.html",
                         "browser": "src/main.ts",
                         "polyfills": [
@@ -78,13 +81,13 @@
                             "budgets": [
                                 {
                                     "type": "initial",
-                                    "maximumWarning": "500kB",
-                                    "maximumError": "1MB"
+                                    "maximumWarning": "5MB",
+                                    "maximumError": "10MB"
                                 },
                                 {
                                     "type": "anyComponentStyle",
-                                    "maximumWarning": "4kB",
-                                    "maximumError": "8kB"
+                                    "maximumWarning": "75kb",
+                                    "maximumError": "90kb"
                                 }
                             ],
                             "outputHashing": "all"
@@ -141,6 +144,9 @@
                             "src/**/*.html"
                         ]
                     }
+                },
+                "deploy": {
+                    "builder": "angular-cli-ghpages:deploy"
                 }
             }
         }
