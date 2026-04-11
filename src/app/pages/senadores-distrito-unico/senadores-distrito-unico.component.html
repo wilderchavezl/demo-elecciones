@@ -46,8 +46,9 @@
                                     formGroup.controls['seleccion'].value?.length === 1 &&
                                     formGroup.controls['seleccion'].value?.includes(item.value)
                                 "
-                                >{{ item.label }}</mat-option
                             >
+                                {{ item.label }}
+                            </mat-option>
                         }
                     </mat-select>
                 </mat-form-field>
@@ -147,6 +148,12 @@
                     >
                         <div class="text-2xl font-semibold leading-none tracking-tight sm:text-5xl">NO</div>
                     </button>
+                </div>
+            </div>
+        } @empty {
+            <div class="bg-card flex flex-row items-center justify-center gap-4 rounded-2xl px-4 py-8 shadow">
+                <div class="text-secondary text-center">
+                    Sin información para mostrar. Intenta ajustar los filtros de selección.
                 </div>
             </div>
         }
