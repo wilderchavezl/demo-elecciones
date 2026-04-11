@@ -10,9 +10,12 @@ import { Observable, of } from 'rxjs';
 })
 export class PartidosPoliticosService {
     getAll(): Observable<Response<PartidoPolitico[]>> {
+        const partidosPoliticos = cloneDeep(listaPartidosPoliticos);
+        const data = partidosPoliticos.sort((a, b) => a.nombre.localeCompare(b.nombre));
+
         return of({
             success: true,
-            data: cloneDeep(listaPartidosPoliticos),
+            data: data,
         });
     }
 }
