@@ -3,9 +3,11 @@
     <!-- Header -->
     <div class="bg-card border-b p-6 dark:bg-transparent sm:py-12 md:px-8">
         <!-- Title -->
-        <div class="flex flex-row items-center justify-between">
+        <div class="flex flex-col justify-between gap-y-4 sm:flex-row sm:items-center">
             <div>
-                <div class="text-4xl font-extrabold leading-none tracking-tight">Candidatos Presidenciales</div>
+                <div class="text-3xl font-extrabold leading-none tracking-tight sm:text-4xl">
+                    Candidatos Presidenciales
+                </div>
                 <div class="text-secondary font-medium tracking-tight">{{ candidatosFiltrados.length }} Candidatos</div>
             </div>
 
@@ -36,7 +38,7 @@
                         (click)="eliminarSeleccionados()"
                     >
                         <mat-icon class="icon-size-5" [svgIcon]="'heroicons_outline:trash'"></mat-icon>
-                        <span class="ml-2">Borrar selección</span>
+                        <span class="ml-2 hidden sm:flex">Borrar selección</span>
                     </button>
                 </div>
             </form>
@@ -47,9 +49,11 @@
     <div class="flex flex-col gap-4 overflow-y-auto p-6 md:p-8" cdkScrollable>
         @for (item of candidatosFiltrados; track $index) {
             <div class="bg-card flex flex-row items-center justify-between gap-4 rounded-2xl p-4 shadow">
+                <!-- Informacion del candidato -->
                 <div class="flex flex-row items-center gap-4">
-                    <div class="flex flex-row gap-4">
-                        <div class="h-32 w-32 overflow-hidden">
+                    <div class="flex flex-col-reverse gap-4 sm:flex-row">
+                        <!-- Imagen partido politico -->
+                        <div class="h-16 w-16 overflow-hidden sm:h-32 sm:w-32">
                             <img
                                 class="h-full w-full object-cover"
                                 [src]="item.partidoPolitico.logoUrl"
@@ -57,7 +61,8 @@
                             />
                         </div>
 
-                        <div class="h-32 w-32 overflow-hidden rounded-full border">
+                        <!-- Foto candidato -->
+                        <div class="h-16 w-16 overflow-hidden rounded-full border sm:h-32 sm:w-32">
                             <img
                                 class="h-full w-full object-cover"
                                 [src]="item.fotoUrl"
@@ -66,31 +71,35 @@
                         </div>
                     </div>
 
-                    <div class="-mt-4 flex flex-col">
-                        <div class="text-2xl font-semibold leading-8 tracking-tight">
+                    <div class="flex flex-col gap-2 sm:-mt-4 sm:gap-0">
+                        <div class="font-semibold tracking-tight sm:text-2xl sm:leading-8">
                             {{ item.nombres }} {{ item.apellidos }}
                         </div>
-                        <div class="text-secondary text-lg leading-5">{{ item.partidoPolitico.nombre }}</div>
+
+                        <div class="text-secondary tracking-tight sm:text-lg sm:leading-5">
+                            {{ item.partidoPolitico.nombre }}
+                        </div>
                     </div>
                 </div>
 
-                <div class="flex flex-row gap-4">
+                <!-- Seleccion -->
+                <div class="flex flex-col gap-4 sm:flex-row">
                     @let seleccion$ = candidatosSeleccionados.get(item.id);
 
                     <button
-                        class="aspect-square h-26 flex-col items-center justify-center rounded-2xl bg-gray-100 dark:bg-white dark:bg-opacity-5"
+                        class="aspect-square h-13 flex-col items-center justify-center rounded-2xl bg-gray-100 dark:bg-white dark:bg-opacity-5 sm:h-26"
                         [ngClass]="seleccion$ === true ? 'outline-none ring-2 ring-primary ring-offset-2' : ''"
                         (click)="toggleSeleccionado(item.id, true)"
                     >
-                        <div class="text-5xl font-semibold leading-none tracking-tight">SI</div>
+                        <div class="text-2xl font-semibold leading-none tracking-tight sm:text-5xl">SI</div>
                     </button>
 
                     <button
-                        class="aspect-square h-26 flex-col items-center justify-center rounded-2xl bg-gray-100 dark:bg-white dark:bg-opacity-5"
+                        class="aspect-square h-13 flex-col items-center justify-center rounded-2xl bg-gray-100 dark:bg-white dark:bg-opacity-5 sm:h-26"
                         [ngClass]="seleccion$ === false ? 'outline-none ring-2 ring-primary ring-offset-2' : ''"
                         (click)="toggleSeleccionado(item.id, false)"
                     >
-                        <div class="text-5xl font-semibold leading-none tracking-tight">NO</div>
+                        <div class="text-2xl font-semibold leading-none tracking-tight sm:text-5xl">NO</div>
                     </button>
                 </div>
             </div>
