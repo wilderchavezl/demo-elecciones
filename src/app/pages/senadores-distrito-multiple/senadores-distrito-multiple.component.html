@@ -3,11 +3,29 @@
     <!-- Header -->
     <div class="bg-card border-b p-6 dark:bg-transparent sm:py-12 md:px-8">
         <!-- Title -->
-        <div class="flex flex-col justify-between gap-y-4 sm:flex-row sm:items-center">
+        <div class="flex flex-col justify-between gap-y-4 lg:flex-row lg:items-center">
             <div>
-                <div class="text-3xl font-extrabold leading-none tracking-tight sm:text-4xl">
-                    Candidatos Senadores - Distrito Múltiple
+                <div class="flex flex-row items-center gap-4">
+                    <div class="text-3xl font-extrabold leading-none tracking-tight sm:text-4xl">
+                        Candidatos Senadores - Distrito Múltiple
+                    </div>
+
+                    <!-- Eliminar seleccion -->
+                    <div
+                        class="md:hidden"
+                        [matTooltip]="hasSeleccionados ? 'Borrar selección' : 'No hay selecciones para borrar'"
+                    >
+                        <button
+                            mat-stroked-button
+                            class="mt-6"
+                            [disabled]="!hasSeleccionados"
+                            (click)="eliminarSeleccionados()"
+                        >
+                            <mat-icon class="icon-size-5" [svgIcon]="'heroicons_outline:trash'"></mat-icon>
+                        </button>
+                    </div>
                 </div>
+
                 <div class="text-secondary font-medium tracking-tight">{{ candidatosFiltrados.length }} Candidatos</div>
             </div>
 
@@ -35,7 +53,7 @@
                 </mat-form-field>
 
                 <!-- Ubigeo -->
-                <mat-form-field class="w-50 sm:w-80" [subscriptSizing]="'dynamic'">
+                <mat-form-field class="w-50 sm:w-60" [subscriptSizing]="'dynamic'">
                     <mat-label>Distrito Electoral</mat-label>
                     <mat-select
                         [formControlName]="'ubigeo'"
@@ -63,7 +81,10 @@
                 </mat-form-field>
 
                 <!-- Eliminar seleccion -->
-                <div [matTooltip]="hasSeleccionados ? 'Borrar selección' : 'No hay selecciones para borrar'">
+                <div
+                    class="hidden md:flex"
+                    [matTooltip]="hasSeleccionados ? 'Borrar selección' : 'No hay selecciones para borrar'"
+                >
                     <button
                         mat-stroked-button
                         class="mt-6"
@@ -71,7 +92,7 @@
                         (click)="eliminarSeleccionados()"
                     >
                         <mat-icon class="icon-size-5" [svgIcon]="'heroicons_outline:trash'"></mat-icon>
-                        <span class="ml-2 hidden sm:flex">Borrar selección</span>
+                        <span class="ml-2">Borrar selección</span>
                     </button>
                 </div>
             </form>
@@ -84,9 +105,9 @@
             <div class="bg-card flex flex-row items-center justify-between gap-4 rounded-2xl p-4 shadow">
                 <!-- Informacion del candidato -->
                 <div class="flex flex-row items-center gap-4">
-                    <div class="flex flex-col-reverse gap-4 sm:flex-row">
+                    <div class="flex flex-col-reverse gap-4 md:flex-row">
                         <!-- Imagen partido politico -->
-                        <div class="h-16 w-16 overflow-hidden sm:h-32 sm:w-32">
+                        <div class="h-16 w-16 overflow-hidden md:h-32 md:w-32">
                             <img
                                 class="h-full w-full object-cover"
                                 [src]="item.partidoPolitico.logoUrl"
@@ -95,7 +116,7 @@
                         </div>
 
                         <!-- Foto candidato -->
-                        <div class="h-16 w-16 overflow-hidden rounded-full border sm:h-32 sm:w-32">
+                        <div class="h-16 w-16 overflow-hidden rounded-full border md:h-32 md:w-32">
                             <img
                                 class="h-full w-full object-cover"
                                 [src]="item.fotoUrl"
@@ -104,22 +125,22 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-col gap-2 sm:-mt-4 sm:gap-0">
-                        <div class="flex flex-col items-start gap-2 sm:flex-row sm:items-center">
-                            <div class="font-semibold tracking-tight sm:text-2xl sm:leading-8">
+                    <div class="flex flex-col gap-2 md:-mt-4 md:gap-0">
+                        <div class="flex flex-col items-start gap-2 md:flex-row md:items-center">
+                            <div class="font-semibold tracking-tight md:text-2xl md:leading-8">
                                 {{ item.nombres }} {{ item.apellidos }}
                             </div>
 
-                            <div class="text-secondary bg-hover rounded-full px-2 font-semibold sm:text-lg">
+                            <div class="text-secondary bg-hover rounded-full px-2 font-semibold md:text-lg">
                                 {{ item.posicion }}
                             </div>
 
-                            <div class="text-secondary bg-hover rounded-full px-2 font-semibold sm:text-lg">
+                            <div class="text-secondary bg-hover rounded-full px-2 font-semibold md:text-lg">
                                 {{ item.ubigeo?.departamento }}
                             </div>
                         </div>
 
-                        <div class="text-secondary tracking-tight sm:text-lg sm:leading-5">
+                        <div class="text-secondary tracking-tight md:text-lg md:leading-5">
                             {{ item.partidoPolitico.nombre }}
                         </div>
                     </div>
