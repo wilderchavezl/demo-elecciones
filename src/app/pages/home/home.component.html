@@ -1,1 +1,36 @@
-<p>home works!</p>
+<div class="mx-auto max-w-5xl space-y-8 px-4 py-10">
+    <mat-card class="flex flex-col items-center gap-2 p-8">
+        <div class="text-center text-3xl font-bold">Simula tu voto para las Elecciones Presidenciales 2026</div>
+
+        <div class="text-gray-600">Compara candidatos y toma decisiones informadas.</div>
+
+        <div class="text-center text-gray-600">
+            Esta es una plataforma demo que te permite explorar y comparar candidatos a la presidencia, Congreso y
+            Parlamento Andino del Perú.
+        </div>
+
+        <button mat-stroked-button class="mt-2" [routerLink]="'/candidatos-presidente'">Empezar</button>
+    </mat-card>
+
+    <mat-card class="flex flex-col items-center gap-2 p-8">
+        <div class="text-xl font-semibold">Privacidad</div>
+
+        <ul class="ml-6 mt-2 list-disc">
+            <li>No recopilamos datos personales.</li>
+            <li>No almacenamos tu información en servidores.</li>
+            <li>Tus selecciones se guardan únicamente en tu dispositivo.</li>
+            <li>Puedes borrar la información en cualquier momento eliminando los datos del navegador.</li>
+        </ul>
+    </mat-card>
+
+    <mat-card class="flex flex-col items-center gap-2 p-8">
+        <div class="text-xl font-semibold">Fuente de la información</div>
+
+        <div class="text-center text-gray-600">
+            La información de los candidatos ha sido obtenida de fuentes públicas del portal Jurado Nacional de
+            Elecciones, específicamente de su plataforma “Voto Informado”.
+        </div>
+
+        <div class="text-gray-600">Esta plataforma no está afiliada ni representa a ninguna entidad oficial.</div>
+    </mat-card>
+</div>
