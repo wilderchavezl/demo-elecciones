@@ -2,8 +2,11 @@ import { CdkScrollable } from '@angular/cdk/scrolling';
 import { NgClass } from '@angular/common';
 import { Component, inject, OnInit } from '@angular/core';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatIconModule } from '@angular/material/icon';
 import { MatSelectModule } from '@angular/material/select';
+import { MatTooltip } from '@angular/material/tooltip';
 import { CandidatoRequest } from '@shared/models/candidatos.model';
 import { CandidatosPresidenteService } from '@shared/services/candidatos-presidente.service';
 import { LocalStorageService } from '@shared/services/local-storage.service';
@@ -12,7 +15,17 @@ import { cloneDeep } from 'lodash-es';
 @Component({
     selector: 'app-presidente',
     templateUrl: './presidente.component.html',
-    imports: [CdkScrollable, NgClass, MatFormFieldModule, MatSelectModule, FormsModule, ReactiveFormsModule],
+    imports: [
+        CdkScrollable,
+        NgClass,
+        MatButtonModule,
+        MatIconModule,
+        MatTooltip,
+        MatFormFieldModule,
+        MatSelectModule,
+        FormsModule,
+        ReactiveFormsModule,
+    ],
 })
 export class PresidenteComponent implements OnInit {
     private candidatosService = inject(CandidatosPresidenteService);
@@ -61,6 +74,16 @@ export class PresidenteComponent implements OnInit {
     // -----------------------------------------------------------------------------------------------------
     // @ Public methods
     // -----------------------------------------------------------------------------------------------------
+
+    public get hasSeleccionados(): boolean {
+        return this.candidatosSeleccionados.size > 0;
+    }
+
+    public eliminarSeleccionados(): void {
+        this.candidatosSeleccionados.clear();
+        this.localStorageService.saveSeleccionados(this.storageKey, this.candidatosSeleccionados);
+        this.filtrarCandidatos();
+    }
 
     public toggleSeleccionado(id: number, seleccion: boolean): void {
         const seleccionado = this.candidatosSeleccionados.get(id);

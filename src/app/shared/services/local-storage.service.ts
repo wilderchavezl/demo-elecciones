@@ -1,13 +1,10 @@
-import { Location } from '@angular/common';
-import { inject, Injectable } from '@angular/core';
-import { NavigationEnd, Router } from '@angular/router';
-import { filter } from 'rxjs';
+import { Injectable } from '@angular/core';
 
-const QUERY_PARAM = 'data';
+const STORAGE_KEY = 'elecciones';
 
 interface StorageEntry {
     seleccionados: [number, boolean][];
-    form: Record<string, unknown>;
+    formulario: Record<string, unknown>;
 }
 
 @Injectable({
@@ -15,25 +12,20 @@ interface StorageEntry {
 })
 export class LocalStorageService {
     private data: Record<string, StorageEntry> = {};
-    private router = inject(Router);
-    private location = inject(Location);
 
     /**
      * Constructor
      */
     constructor() {
-        const params = new URLSearchParams(window.location.search);
-        const encoded = params.get(QUERY_PARAM);
+        const raw = localStorage.getItem(STORAGE_KEY);
 
-        if (encoded) {
+        if (raw) {
             try {
-                this.data = JSON.parse(atob(encoded));
+                this.data = JSON.parse(raw);
             } catch {
                 this.data = {};
             }
         }
-
-        this.router.events.pipe(filter((event) => event instanceof NavigationEnd)).subscribe(() => this.updateUrl());
     }
 
     // -----------------------------------------------------------------------------------------------------
@@ -45,7 +37,7 @@ export class LocalStorageService {
 
         this.data[key].seleccionados = Array.from(seleccionados.entries());
 
-        this.updateUrl();
+        this.persist();
     }
 
     public loadSeleccionados(key: string): Map<number, boolean> {
@@ -61,13 +53,13 @@ export class LocalStorageService {
     public saveFormValues(key: string, values: Record<string, unknown>): void {
         this.ensureEntry(key);
 
-        this.data[key].form = values;
+        this.data[key].formulario = values;
 
-        this.updateUrl();
+        this.persist();
     }
 
     public loadFormValues(key: string): Record<string, unknown> | null {
-        return this.data[key]?.form ?? null;
+        return this.data[key]?.formulario ?? null;
     }
 
     // -----------------------------------------------------------------------------------------------------
@@ -76,20 +68,15 @@ export class LocalStorageService {
 
     private ensureEntry(key: string): void {
         if (!this.data[key]) {
-            this.data[key] = { seleccionados: [], form: {} };
+            this.data[key] = { seleccionados: [], formulario: {} };
         }
     }
 
-    private updateUrl(): void {
+    private persist(): void {
         if (Object.keys(this.data).length === 0) {
             return;
         }
 
-        const encoded = btoa(JSON.stringify(this.data));
-        const urlTree = this.router.parseUrl(this.router.url);
-
-        urlTree.queryParams = { ...urlTree.queryParams, [QUERY_PARAM]: encoded };
-
-        this.location.replaceState(this.router.serializeUrl(urlTree));
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(this.data));
     }
 }

@@ -2,8 +2,11 @@ import { CdkScrollable } from '@angular/cdk/scrolling';
 import { NgClass } from '@angular/common';
 import { Component, inject, OnInit } from '@angular/core';
 import { FormControl, FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatIconModule } from '@angular/material/icon';
 import { MatSelectModule } from '@angular/material/select';
+import { MatTooltip } from '@angular/material/tooltip';
 import { CandidatoRequest } from '@shared/models/candidatos.model';
 import { PartidoPolitico } from '@shared/models/partidos-politicos.model';
 import { CandidatosSenadoresDistritoUnicoService } from '@shared/services/candidatos-senadores-distrito-unico.service';
@@ -14,7 +17,17 @@ import { cloneDeep } from 'lodash-es';
 @Component({
     selector: 'app-senadores-distrito-unico',
     templateUrl: './senadores-distrito-unico.component.html',
-    imports: [CdkScrollable, NgClass, MatFormFieldModule, MatSelectModule, FormsModule, ReactiveFormsModule],
+    imports: [
+        CdkScrollable,
+        NgClass,
+        MatButtonModule,
+        MatIconModule,
+        MatTooltip,
+        MatFormFieldModule,
+        MatSelectModule,
+        FormsModule,
+        ReactiveFormsModule,
+    ],
 })
 export class SenadoresDistritoUnicoComponent implements OnInit {
     private candidatosService = inject(CandidatosSenadoresDistritoUnicoService);
@@ -75,6 +88,16 @@ export class SenadoresDistritoUnicoComponent implements OnInit {
     // -----------------------------------------------------------------------------------------------------
     // @ Public methods
     // -----------------------------------------------------------------------------------------------------
+
+    public get hasSeleccionados(): boolean {
+        return this.candidatosSeleccionados.size > 0;
+    }
+
+    public eliminarSeleccionados(): void {
+        this.candidatosSeleccionados.clear();
+        this.localStorageService.saveSeleccionados(this.storageKey, this.candidatosSeleccionados);
+        this.filtrarCandidatos();
+    }
 
     public toggleSeleccionado(id: number, seleccion: boolean): void {
         const seleccionado = this.candidatosSeleccionados.get(id);

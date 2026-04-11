@@ -9,7 +9,8 @@
                 <div class="text-secondary font-medium tracking-tight">{{ candidatosFiltrados.length }} Candidatos</div>
             </div>
 
-            <form [formGroup]="formGroup">
+            <form [formGroup]="formGroup" class="flex flex-row items-center gap-4">
+                <!-- Seleccion -->
                 <mat-form-field class="w-50" [subscriptSizing]="'dynamic'">
                     <mat-label>Filtros de selección</mat-label>
                     <mat-select [formControlName]="'seleccion'" multiple (selectionChange)="filtrarCandidatos()">
@@ -25,6 +26,19 @@
                         }
                     </mat-select>
                 </mat-form-field>
+
+                <!-- Eliminar seleccion -->
+                <div [matTooltip]="hasSeleccionados ? 'Borrar selección' : 'No hay selecciones para borrar'">
+                    <button
+                        mat-stroked-button
+                        class="mt-6"
+                        [disabled]="!hasSeleccionados"
+                        (click)="eliminarSeleccionados()"
+                    >
+                        <mat-icon class="icon-size-5" [svgIcon]="'heroicons_outline:trash'"></mat-icon>
+                        <span class="ml-2">Borrar selección</span>
+                    </button>
+                </div>
             </form>
         </div>
     </div>
