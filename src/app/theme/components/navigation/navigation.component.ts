@@ -2,7 +2,7 @@
 import { animate, AnimationBuilder, AnimationPlayer, style } from '@angular/animations';
 import { BooleanInput, coerceBooleanProperty } from '@angular/cdk/coercion';
 import { ScrollStrategy, ScrollStrategyOptions } from '@angular/cdk/overlay';
-import { DOCUMENT } from '@angular/common';
+import { DOCUMENT, isPlatformBrowser } from '@angular/common';
 import {
     AfterViewInit,
     ChangeDetectionStrategy,
@@ -18,6 +18,7 @@ import {
     OnDestroy,
     OnInit,
     Output,
+    PLATFORM_ID,
     QueryList,
     Renderer2,
     SimpleChanges,
@@ -110,6 +111,7 @@ export class ThemeNavigationComponent implements OnChanges, OnInit, AfterViewIni
     private _themeScrollbarDirectives!: QueryList<ThemeScrollbarDirective>;
     private _themeScrollbarDirectivesSubscription!: Subscription;
     private _unsubscribeAll: Subject<any> = new Subject<any>();
+    private readonly isBrowser = isPlatformBrowser(inject(PLATFORM_ID));
 
     /**
      * Constructor
@@ -362,10 +364,12 @@ export class ThemeNavigationComponent implements OnChanges, OnInit, AfterViewIni
             });
         });
 
-        this._mutationObserver.observe(this._document.documentElement, {
-            attributes: true,
-            attributeFilter: ['class'],
-        });
+        if (this.isBrowser) {
+            this._mutationObserver.observe(this._document.documentElement, {
+                attributes: true,
+                attributeFilter: ['class'],
+            });
+        }
 
         setTimeout(() => {
             // Return if 'navigation content' element does not exist

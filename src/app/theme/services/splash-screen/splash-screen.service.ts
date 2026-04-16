@@ -1,5 +1,5 @@
-import { DOCUMENT } from '@angular/common';
-import { inject, Injectable } from '@angular/core';
+import { DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { inject, Injectable, PLATFORM_ID } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 import { filter, take } from 'rxjs';
 
@@ -9,6 +9,7 @@ import { filter, take } from 'rxjs';
 export class ThemeSplashScreenService {
     private readonly _document = inject(DOCUMENT);
     private readonly _router = inject(Router);
+    private readonly isBrowser = isPlatformBrowser(inject(PLATFORM_ID));
 
     /**
      * Constructor
@@ -33,6 +34,7 @@ export class ThemeSplashScreenService {
      * Show the splash screen
      */
     show(): void {
+        if (!this.isBrowser) return;
         this._document.body.classList.remove('theme-splash-screen-hidden');
     }
 
@@ -40,6 +42,7 @@ export class ThemeSplashScreenService {
      * Hide the splash screen
      */
     hide(): void {
+        if (!this.isBrowser) return;
         setTimeout(() => {
             this._document.body.classList.add('theme-splash-screen-hidden');
         });

@@ -1,7 +1,7 @@
 /* eslint-disable @angular-eslint/prefer-inject */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { DOCUMENT } from '@angular/common';
-import { Component, Inject, OnDestroy, OnInit, Renderer2, ViewEncapsulation } from '@angular/core';
+import { DOCUMENT, isPlatformBrowser } from '@angular/common';
+import { Component, Inject, inject, OnDestroy, OnInit, PLATFORM_ID, Renderer2, ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { Scheme, ThemeConfig } from '@theme/config/config.model';
 import { ThemeConfigService } from '@theme/services/config/config.service';
@@ -26,13 +26,14 @@ export class LayoutComponent implements OnInit, OnDestroy {
     scheme!: Scheme;
     theme!: string;
     private _unsubscribeAll: Subject<any> = new Subject<any>();
+    private readonly isBrowser = isPlatformBrowser(inject(PLATFORM_ID));
 
     /**
      * Constructor
      */
     constructor(
         private _activatedRoute: ActivatedRoute,
-        @Inject(DOCUMENT) private _document: any,
+        @Inject(DOCUMENT) private _document: Document,
         private _renderer2: Renderer2,
         private _router: Router,
         private _themeConfigService: ThemeConfigService,
@@ -103,11 +104,13 @@ export class LayoutComponent implements OnInit, OnDestroy {
                 this._updateLayout();
             });
 
-        // Set the app version
-        this._renderer2.setAttribute(this._document.querySelector('[ng-version]'), 'theme-version', THEME_VERSION);
+        if (this.isBrowser) {
+            // Set the app version
+            this._renderer2.setAttribute(this._document.querySelector('[ng-version]'), 'theme-version', THEME_VERSION);
 
-        // Set the OS name
-        this._renderer2.addClass(this._document.body, this._themePlatformService.osName);
+            // Set the OS name
+            this._renderer2.addClass(this._document.body, this._themePlatformService.osName);
+        }
     }
 
     /**
@@ -178,6 +181,8 @@ export class LayoutComponent implements OnInit, OnDestroy {
      * @private
      */
     private _updateScheme(): void {
+        if (!this.isBrowser) return;
+
         // Remove class names for all schemes
         this._document.body.classList.remove('light', 'dark');
 
@@ -191,6 +196,8 @@ export class LayoutComponent implements OnInit, OnDestroy {
      * @private
      */
     private _updateTheme(): void {
+        if (!this.isBrowser) return;
+
         // Find the class name for the previously selected theme and remove it
         this._document.body.classList.forEach((className: string) => {
             if (className.startsWith('theme-')) {
