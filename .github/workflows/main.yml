@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Angular-CI
 
 # Controls when the workflow will run
 on:
@@ -36,6 +36,10 @@ jobs:
       # Build app for production
       - name: Build app bundle
         run: npm run build:prod
+
+      # Route file renaming for Github pages
+      - name: Rename index for routing
+        run: mv dist/index.html dist/404.html
 
       # Desploy to Github pages
       - name: Deploy to Pages
