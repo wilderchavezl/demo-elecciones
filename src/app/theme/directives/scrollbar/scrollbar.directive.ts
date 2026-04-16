@@ -1,7 +1,18 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { BooleanInput, coerceBooleanProperty } from '@angular/cdk/coercion';
 import { Platform } from '@angular/cdk/platform';
-import { Directive, ElementRef, inject, Input, OnChanges, OnDestroy, OnInit, SimpleChanges } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
+import {
+    Directive,
+    ElementRef,
+    inject,
+    Input,
+    OnChanges,
+    OnDestroy,
+    OnInit,
+    PLATFORM_ID,
+    SimpleChanges,
+} from '@angular/core';
 import { merge } from 'lodash-es';
 import PerfectScrollbar from 'perfect-scrollbar';
 import { debounceTime, fromEvent, Subject, takeUntil } from 'rxjs';
@@ -24,6 +35,7 @@ export class ThemeScrollbarDirective implements OnChanges, OnInit, OnDestroy {
     private _options?: PerfectScrollbar.Options;
     private _ps: PerfectScrollbar | null = null;
     private _unsubscribeAll: Subject<any> = new Subject<any>();
+    private readonly isBrowser = isPlatformBrowser(inject(PLATFORM_ID));
 
     // -----------------------------------------------------------------------------------------------------
     // @ Accessors
@@ -93,6 +105,8 @@ export class ThemeScrollbarDirective implements OnChanges, OnInit, OnDestroy {
      * On init
      */
     ngOnInit(): void {
+        if (!this.isBrowser) return;
+
         // Subscribe to window resize event
         fromEvent(window, 'resize')
             .pipe(takeUntil(this._unsubscribeAll), debounceTime(150))
@@ -236,6 +250,7 @@ export class ThemeScrollbarDirective implements OnChanges, OnInit, OnDestroy {
      * @param speed
      */
     scrollToBottom(offset = 0, speed?: number): void {
+        if (!this.isBrowser) return;
         const top = this._elementRef.nativeElement.scrollHeight - this._elementRef.nativeElement.clientHeight;
         this.animateScrolling('scrollTop', top - offset, speed);
     }
@@ -257,6 +272,7 @@ export class ThemeScrollbarDirective implements OnChanges, OnInit, OnDestroy {
      * @param speed
      */
     scrollToRight(offset = 0, speed?: number): void {
+        if (!this.isBrowser) return;
         const left = this._elementRef.nativeElement.scrollWidth - this._elementRef.nativeElement.clientWidth;
         this.animateScrolling('scrollLeft', left - offset, speed);
     }
@@ -270,6 +286,8 @@ export class ThemeScrollbarDirective implements OnChanges, OnInit, OnDestroy {
      * @param speed
      */
     scrollToElement(qs: string, offset = 0, ignoreVisible = false, speed?: number): void {
+        if (!this.isBrowser) return;
+
         const element = this._elementRef.nativeElement.querySelector(qs);
 
         if (!element) {
@@ -310,6 +328,8 @@ export class ThemeScrollbarDirective implements OnChanges, OnInit, OnDestroy {
      * @param speed
      */
     animateScrolling(target: string, value: number, speed?: number): void {
+        if (!this.isBrowser) return;
+
         if (this._animation) {
             window.cancelAnimationFrame(this._animation);
             this._animation = null;
@@ -364,6 +384,8 @@ export class ThemeScrollbarDirective implements OnChanges, OnInit, OnDestroy {
         if (this._ps) {
             return;
         }
+
+        if (!this.isBrowser) return;
 
         // Return if on mobile or not on browser
         if (this._platform.ANDROID || this._platform.IOS || !this._platform.isBrowser) {

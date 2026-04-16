@@ -344,6 +344,8 @@ export class ThemeNavigationComponent implements OnChanges, OnInit, AfterViewIni
      * After view init
      */
     ngAfterViewInit(): void {
+        if (!this.isBrowser) return;
+
         // Fix for Firefox.
         //
         // Because 'position: sticky' doesn't work correctly inside a 'position: fixed' parent,
@@ -364,12 +366,10 @@ export class ThemeNavigationComponent implements OnChanges, OnInit, AfterViewIni
             });
         });
 
-        if (this.isBrowser) {
-            this._mutationObserver.observe(this._document.documentElement, {
-                attributes: true,
-                attributeFilter: ['class'],
-            });
-        }
+        this._mutationObserver.observe(this._document.documentElement, {
+            attributes: true,
+            attributeFilter: ['class'],
+        });
 
         setTimeout(() => {
             // Return if 'navigation content' element does not exist
@@ -580,6 +580,8 @@ export class ThemeNavigationComponent implements OnChanges, OnInit, AfterViewIni
      * @private
      */
     private _showOverlay(): void {
+        if (!this.isBrowser) return;
+
         // Return if there is already an overlay
         if (this._asideOverlay) {
             return;
@@ -620,6 +622,8 @@ export class ThemeNavigationComponent implements OnChanges, OnInit, AfterViewIni
      * @private
      */
     private _hideOverlay(): void {
+        if (!this.isBrowser) return;
+
         if (!this._overlay) {
             return;
         }
@@ -655,6 +659,8 @@ export class ThemeNavigationComponent implements OnChanges, OnInit, AfterViewIni
      * @private
      */
     private _showAsideOverlay(): void {
+        if (!this.isBrowser) return;
+
         // Return if there is already an overlay
         if (this._asideOverlay) {
             return;
@@ -687,6 +693,8 @@ export class ThemeNavigationComponent implements OnChanges, OnInit, AfterViewIni
      * @private
      */
     private _hideAsideOverlay(): void {
+        if (!this.isBrowser) return;
+
         if (!this._asideOverlay) {
             return;
         }
