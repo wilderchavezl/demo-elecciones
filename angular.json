@@ -42,10 +42,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:application",
                     "options": {
-                        "outputPath": {
-                            "base": "dist",
-                            "browser": ""
-                        },
+                        "outputPath": "dist/demo-elecciones",
                         "index": "src/index.html",
                         "browser": "src/main.ts",
                         "polyfills": [
@@ -74,7 +71,15 @@
                             "src/styles/styles.scss",
                             "src/styles/tailwind.scss"
                         ],
-                        "scripts": []
+                        "scripts": [],
+                        "server": "src/main.server.ts",
+                        "security": {
+                            "allowedHosts": []
+                        },
+                        "prerender": false,
+                        "ssr": {
+                            "entry": "src/server.ts"
+                        }
                     },
                     "configurations": {
                         "production": {
