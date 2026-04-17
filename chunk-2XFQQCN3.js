@@ -1,0 +1,1 @@
+import{l as a}from"./chunk-P5M7MN4B.js";import{r as i}from"./chunk-LVDULLYS.js";import{X as e,n as r}from"./chunk-S3S7TUWW.js";var s=class o{getAll(){let t=i(a).sort((m,n)=>m.nombre.localeCompare(n.nombre));return r({success:!0,data:t})}static \u0275fac=function(t){return new(t||o)};static \u0275prov=e({token:o,factory:o.\u0275fac,providedIn:"root"})};export{s as a};
