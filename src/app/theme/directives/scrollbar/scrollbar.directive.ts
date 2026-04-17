@@ -21,6 +21,7 @@ import { ScrollbarGeometry, ScrollbarPosition } from './scrollbar.model';
 
 @Directive({
     selector: '[themeScrollbar]',
+    exportAs: 'themeScrollbar',
 })
 export class ThemeScrollbarDirective implements OnChanges, OnInit, OnDestroy {
     static ngAcceptInputType_themeScrollbar: BooleanInput;
