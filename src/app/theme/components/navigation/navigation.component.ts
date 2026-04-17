@@ -53,6 +53,7 @@ import { ThemeNavigationService } from './navigation.service';
     animations: themeAnimations,
     encapsulation: ViewEncapsulation.None,
     changeDetection: ChangeDetectionStrategy.OnPush,
+    exportAs: 'themeNavigation',
     imports: [
         ThemeScrollbarDirective,
         ThemeNavigationAsideItemComponent,
